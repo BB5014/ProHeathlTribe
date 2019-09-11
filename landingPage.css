@@ -3,12 +3,47 @@ html {
 }
 body {
   width: 95%;
+  background-color: #ddd;
+  /* background: url("https://www.istockphoto.com/fr/en/vector/tricolor-brush-stroke-gm1009448862-272159973")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
-h1 {
-  font-family: "Satisfy", cursive;
+
+nav {
+  font-family: "Chilanka", cursive;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+}
+
+h1,
+h4 {
+  font-family: "Courgette", cursive;
+  letter-spacing: 0.5rem;
+}
+h5 {
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 0.5rem;
 }
 /* font-family: 'Lobster', cursive;
-font-family: 'Dancing Script', cursive;
+ font-family: "Satisfy", cursive;
 
-font-family: 'Courgette', cursive;
-font-family: 'Chilanka', cursive; */
+ */
+
+/* @media (min-width: 768px) {
+  .container-fluid {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-fluid {
+    width: 1170px;
+  }
+} */
