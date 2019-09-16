@@ -3,7 +3,7 @@ html {
 }
 body {
   width: 95%;
-  background-color: #ddd;
+
   /* background: url("https://www.istockphoto.com/fr/en/vector/tricolor-brush-stroke-gm1009448862-272159973")
     no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,6 +11,8 @@ body {
   -o-background-size: cover;
   background-size: cover; */
 }
+
+/* "http://frimousse67.f.r.pic.centerblog.net/2b2b64c0.png" */
 
 nav {
   font-family: "Chilanka", cursive;
@@ -25,8 +27,13 @@ h4 {
 }
 h5 {
   font-family: "Dancing Script", cursive;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
 }
+#objectifs .card {
+  border-radius: 2rem;
+  background-color: #fae9d9;
+}
+
 /* font-family: 'Lobster', cursive;
  font-family: "Satisfy", cursive;
 
