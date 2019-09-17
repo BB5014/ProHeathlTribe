@@ -3,16 +3,11 @@ html {
 }
 body {
   width: 95%;
-
-  /* background: url("https://www.istockphoto.com/fr/en/vector/tricolor-brush-stroke-gm1009448862-272159973")
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
 }
 
-/* "http://frimousse67.f.r.pic.centerblog.net/2b2b64c0.png" */
+header {
+  margin-top: 5rem;
+}
 
 nav {
   font-family: "Chilanka", cursive;
