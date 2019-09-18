@@ -17,20 +17,20 @@
   <title>PHT</title>
 </head>
 
-<header class="w-100 d-flex justify-content-center">
+<header class="container">
   <!-- logo -->
 
-  <img src="images/Logo Pro Health Tribe Rouge.png" width="500" height="500" alt="logo" />
-</header>
+  <!-- <img src="images/Logo Pro Health Tribe Rouge.png" width="500" height="500" alt="logo" /> -->
 
 <!--Navbar-->
 
-<nav class="navbar navbar-expand-md fixed-top font-weight-bold bg-white">
+<nav class="navbar navbar-expand-md bg-white">
   <button class="navbar-toggler collapsed bg-danger" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollpase" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-collapse collapse" id="navbarCollapse">
+  <div class="collapse navbar-collapse " id="navbarCollapse">
+   
     <ul class="navbar-nav mr-auto">
       <li class="nav-item  active">
         <a class="nav-link text-danger" href="#concept">LE CONCEPT</a>
@@ -50,26 +50,34 @@
     </ul>
   </div>
 </nav>
+  
+</header>
+
+<!--End navbar and header-->
 
 <body>
 
+  <!--Introduction : Video-->
+
+  <div class="container-fluid introduction"> 
+  <div class="row">
+    <div class="col-md-12">
+      <div class="media mx-auto mt-3 shadow-sm">
+        <iframe width="3500" height="350" src="https://www.youtube.com/embed/RH3i7qONrT4" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!--Fisrt section : Concept-->
 
-  <section class="container-fluid py-5" id="concept">
-    <h1 class="text-center">NOTRE CONCEPT</h1>
-    <div class="row">
-
-      <div class="col-lg-5">
-        <div class="media mx-auto mt-3 shadow-sm">
-          <iframe width="600" height="350" src="https://www.youtube.com/embed/RH3i7qONrT4" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-lg-7">
-        <div class="media-body">
-          <h4 class="media-heading mt-3">Sous-titre</h4>
-          <p class=" m-2">
+  <section class="container py-5" id="concept">
+    <h1 class="mb-5 text-center text-danger text-uppercase">Notre concept</h1>
+<div class="row"> 
+      <div class="col-md-12 justify-content-center">
+        
+          <p class="d-flex text-justify m-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo
             minima iste cupiditate rem. Amet consectetur nemo odit itaque, enim
             porro vel voluptate cupiditate placeat sed, aliquid consequuntur, quasi
@@ -79,51 +87,48 @@
             quasi quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Modi explicabo minima iste cupiditate rem. Amet consectetur nemo odit
             itaque, enim porro vel voluptate cupiditate placeat sed, aliquid
-            consequuntur, quasi quae. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Modi explicabo minima iste cupiditate rem. Amet
-            consectetur nemo odit itaque, enim porro vel voluptate cupiditate
-            placeat sed, aliquid consequuntur, quasi quae. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Modi explicabo minima iste cupiditate
-            rem. Amet consectetur nemo odit itaque, enim porro vel voluptate
-            cupiditate placeat sed, aliquid consequuntur, quasi quae. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Modi explicabo minima iste
-            cupiditate rem. Amet consectetur nemo odit itaque, enim porro vel
-            voluptate cupiditate placeat sed, aliquid consequuntur, quasi quae.
+            consequuntur, quasi quae. 
           </p>
         </div>
       </div>
-    </div>
   </section>
 
   <!--Second section : objectifs-->
 
-  <section class="container-fluid py-5" id="objectifs">
-    <h1 class="text-center text-uppercase">Objectifs</h1>
-    <div class="card-deck justify-content-center mt-5">
-      <div class="card align-items-center shadow-lg p-3 mb-5 ">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="card-img rounded-circle w-25 " alt="goal" />
-        <div class="card-body">
-          <h5 class="card-title text-center font-italic">Objectif 1</h5>
-          <p class="card-text">
+  <section class="container-fluid p-3 bg-danger  text-white" id="objectifs">
+    <h1 class="m-3 text-center text-uppercase">Les Objectifs</h1>
+
+    <!--Start objectif one-->
+
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="approche 100% en ligne" />
+        
+          <h5 class="text-center text-uppercase mt-3">Approche 100% en ligne multi-supports</h5>
+          <p>
             This is a wider card with supporting text below as a natural
             lead-in to additional content. This content is a little bit
             longer.
           </p>
-        </div>
-        <div class="footer p-3">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+        
+            <div class="footer p-3">
+
+          <!--First Button trigger modal -->
+
+          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong">
             En savoir plus
           </button>
+        </div>
 
-          <!-- Modal -->
+          <!-- First Modal -->
+
           <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLongTitle">
-                    Objectif 1
+                    Approche 100 % en ligne multi-supports
                   </h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -146,31 +151,39 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="card align-items-center shadow-lg p-3 mb-5">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="card-img rounded-circle w-25 " alt="goal" />
-        <div class="card-body">
-          <h5 class="card-title text-center font-italic">Objectif 2</h5>
-          <p class="card-text">
+
+<!--End objectif one-->
+
+<!--Start objectif two-->
+
+      <div class="col-lg-4">
+        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="reseau social unique" />
+        
+          <h5 class="text-center text-uppercase mt-3">Réseau social unique "Pro santé"</h5>
+          <p>
             This is a wider card with supporting text below as a natural
             lead-in to additional content. This content is a little bit
             longer.
           </p>
-        </div>
-        <div class="footer p-3">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+        
+            <div class="footer p-3">
+
+          <!-- Second Button trigger modal -->
+
+          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong2">
             En savoir plus
           </button>
+        </div>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <!-- Second Modal -->
+
+          <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">
-                    Objectif 2
+                  <h5 class="modal-title" id="exampleModalLongTitle2">
+                    Réseau social unique "Pro santé"
                   </h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -193,31 +206,94 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="card align-items-center shadow-lg p-3 mb-5">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="card-img rounded-circle w-25 " alt="goal" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Objectif 3</h5>
-          <p class="card-text">
+    
+<!--End objectif two-->
+
+<!--Start objectif three-->
+
+      <div class="col-lg-4">
+        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="Formations accessibles en multilingues" />
+        
+          <h5 class="text-center text-uppercase mt-3">Formations accessibles en multilingues</h5>
+          <p>
             This is a wider card with supporting text below as a natural
             lead-in to additional content. This content is a little bit
             longer.
           </p>
-        </div>
+        
         <div class="footer p-3">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+
+          <!-- Third Button trigger modal -->
+
+          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong3">
             En savoir plus
           </button>
+        </div>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <!-- Third Modal -->
+
+          <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">
-                    Objectif 3
+                  <h5 class="modal-title" id="exampleModalLongTitle3">
+                    Formations accessibles en multilingues
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt distinctio odio non ab aspernatur magnam ad.
+                    Voluptate id officia ut, quae doloremque doloribus neque
+                    incidunt deleniti, labore quisquam vel dolore!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">
+                    Fermer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+         
+<!--End objectif three-->
+
+      <!--Start objectif four-->
+
+      <div class="col-lg-4">
+        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="Transversalité des connaissances médicales" />
+        
+          <h5 class="text-center text-uppercase mt-3">Transversalité des connaissances médicales</h5>
+          <p>
+            This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.
+          </p>
+        
+        <div class="footer p-3">
+
+          <!-- Fourth Button trigger modal -->
+
+          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong4">
+            En savoir plus
+          </button>
+        </div>
+
+          <!-- Fourth Modal -->
+
+          <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle4">
+                    Transversalité des connaissances médicales
                   </h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -240,31 +316,39 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="card align-items-center shadow-lg p-3 mb-5">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="card-img rounded-circle w-25 " alt="goal" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Objectif 4</h5>
-          <p class="card-text">
+
+  <!--End objectif four-->    
+
+  <!--Start objectif five-->
+
+      <div class="col-lg-4">
+        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="100% pratique d'utilisation" />
+        
+          <h5 class="text-center text-uppercase mt-3">100 % pratique d'utilisation</h5>
+          <p>
             This is a wider card with supporting text below as a natural
             lead-in to additional content. This content is a little bit
             longer.
           </p>
-        </div>
+        
         <div class="footer p-3">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+
+          <!--Fifth Button trigger modal -->
+
+          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong5">
             En savoir plus
           </button>
+        </div>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <!-- Fifth Modal -->
+
+          <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle5" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">
-                    Objectif 4
+                  <h5 class="modal-title" id="exampleModalLongTitle5">
+                    100 % pratique d'utilisation
                   </h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -287,8 +371,68 @@
             </div>
           </div>
         </div>
-      </div>
+
+<!--End objectif five-->
+
+<!--Start objectif six-->
+
+      <div class="col-lg-4">
+        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="Formations certifiantes" />
+        
+          <h5 class="text-center text-uppercase mt-3">Formations certifiantes organisme agréé DPC</h5>
+          <p>
+            This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit
+            longer.
+          </p>
+        
+        <div class="footer p-3">
+
+          <!-- Sixth Button trigger modal -->
+
+          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong6">
+            En savoir plus
+          </button>
+        </div>
+
+          <!-- Sixth Modal -->
+
+          <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle6" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle6">
+                    Formations certifiantes, organisme agréé DPC
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt distinctio odio non ab aspernatur magnam ad.
+                    Voluptate id officia ut, quae doloremque doloribus neque
+                    incidunt deleniti, labore quisquam vel dolore!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">
+                    Fermer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+      
+
+<!--End objectif six-->   
+
   </section>
+
 
   <!--Third section : pedagogy-->
 

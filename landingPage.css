@@ -9,27 +9,17 @@ header {
   margin-top: 5rem;
 }
 
-nav {
-  font-family: "Chilanka", cursive;
-  letter-spacing: 0.5rem;
-  font-size: 1rem;
-}
-
+nav,
 h1,
-h4 {
-  font-family: "Courgette", cursive;
-  letter-spacing: 0.5rem;
-}
 h5 {
-  font-family: "Dancing Script", cursive;
-  letter-spacing: 0.3rem;
+  font-family: "Chilanka", cursive;
+  font-weight: bold;
 }
-#objectifs .card {
-  border-radius: 2rem;
-  background-color: #fae9d9;
+.triggerModal {
+  border-radius: 20px;
 }
 
 /* font-family: 'Lobster', cursive;
- font-family: "Satisfy", cursive;
+ font-family: , cursive;
 
  */
