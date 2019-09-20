@@ -1,2 +1,2 @@
 # ProHeathlTribe
-Creatin landing page
+Creating landing page
