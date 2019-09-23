@@ -11,46 +11,48 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="landingPage.css" />
-  <link href="https://fonts.googleapis.com/css?family=Chilanka|Courgette|Dancing+Script|Lobster|Satisfy&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,800&display=swap" rel="stylesheet">
+    
 
   <title>PHT</title>
 </head>
 
-<header class="container">
-  <!-- logo -->
-
-  <!-- <img src="images/Logo Pro Health Tribe Rouge.png" width="500" height="500" alt="logo" /> -->
+<header class="container-fluid justify-content-center">
 
 <!--Navbar-->
-
+<div class="row"> 
+  <div class="col-lg-12"> 
 <nav class="navbar navbar-expand-md bg-white">
+  <!-- <a class="navbar-brand" href="#logoNavbar">  -->
+  <img src="images/logo.png"  alt="logoNavbar" id="logoNavbar" />
+<!-- </a> -->
   <button class="navbar-toggler collapsed bg-danger" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollpase" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse " id="navbarCollapse">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
    
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav">
       <li class="nav-item  active">
         <a class="nav-link text-danger" href="#concept">LE CONCEPT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#objectifs">OBJECTIF</a>
+        <a class="nav-link" href="#objectifs">OBJECTIF</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#pedagogy">PEDAGOGIE</a>
+        <a class="nav-link" href="#pedagogy">PEDAGOGIE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#statistics">QUELQUES CHIFFRES</a>
+        <a class="nav-link" href="#statistics">QUELQUES CHIFFRES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark disabled" href="#nousContacter" tabindex="-1" aria-disabled="true">NOUS CONTACTER</a>
+        <a class="nav-link" href="#nousContacter" tabindex="-1" aria-disabled="true">NOUS CONTACTER</a>
       </li>
     </ul>
   </div>
 </nav>
-  
+</div>
+</div>
 </header>
 
 <!--End navbar and header-->
@@ -73,11 +75,11 @@
   <!--Fisrt section : Concept-->
 
   <section class="container py-5" id="concept">
-    <h1 class="mb-5 text-center text-danger text-uppercase">Notre concept</h1>
-<div class="row"> 
-      <div class="col-md-12 justify-content-center">
-        
-          <p class="d-flex text-justify m-2">
+    <h1 class="text-center text-uppercase">Notre concept</h1>
+    <img class="elect" src="images/picto-elect.png" alt="Elect" />
+    <div class="row"> 
+      <div class="col-lg-12 justify-content-center">
+          <p class="d-flex text-center m-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo
             minima iste cupiditate rem. Amet consectetur nemo odit itaque, enim
             porro vel voluptate cupiditate placeat sed, aliquid consequuntur, quasi
@@ -86,9 +88,7 @@
             enim porro vel voluptate cupiditate placeat sed, aliquid consequuntur,
             quasi quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Modi explicabo minima iste cupiditate rem. Amet consectetur nemo odit
-            itaque, eni
-      <li class="nav-item">m porro vel voluptate cupiditate placeat sed, aliquid
-            consequuntur, quasi quae. 
+            itaque.
           </p>
         </div>
       </div>
@@ -97,13 +97,14 @@
   <!--Second section : objectifs-->
 
   <section class="container-fluid p-3 bg-danger text-white" id="objectifs">
-    <h1 class="m-3 text-center text-uppercase">Les Objectifs</h1>
+    <img src="images/picto-coeur.png" alt="Coeur"/>
+    <h1 class="m-3 text-center text-uppercase text-white">Les Objectifs</h1>
 
     <!--Start objectif one-->
 
     <div class="w-75 row justify-content-center text-center m-auto">
       <div class="col-lg-4">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="approche 100% en ligne" />
+        <img src="images/picto-wifi.png" alt="Wifi"/>
         
           <h5 class="text-center text-uppercase mt-3">Approche 100% en ligne multi-supports</h5>
           <p>
@@ -157,7 +158,7 @@
 <!--Start objectif two-->
 
       <div class="col-lg-4">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="reseau social unique" />
+        <img src="images/picto-reseau-social.png"  alt="Reseau social" />
         
           <h5 class="text-center text-uppercase mt-3">Réseau social unique "Pro santé"</h5>
           <p>
@@ -212,7 +213,7 @@
 <!--Start objectif three-->
 
       <div class="col-lg-4">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="Formations accessibles en multilingues" />
+        <img src="images/picto-multilingue.png"  alt="multilingues" />
         
           <h5 class="text-center text-uppercase mt-3">Formations accessibles en multilingues</h5>
           <p>
@@ -260,7 +261,7 @@
               </div>
             </div>
           </div>
-      </div>
+        </div>
          
 <!--End objectif three-->
 
@@ -269,7 +270,7 @@
       <!--Start objectif four-->
 
       <div class="col-lg-4">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="Transversalité des connaissances médicales" />
+        <img src="images/picto-connaissances.png" alt="Connaissances" />
         
           <h5 class="text-center text-uppercase mt-3">Transversalité des connaissances médicales</h5>
           <p>
@@ -324,7 +325,7 @@
   <!--Start objectif five-->
 
       <div class="col-lg-4">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="100% pratique d'utilisation" />
+        <img src="images/picto-utilisation.png" alt="Utilisation" />
         
           <h5 class="text-center text-uppercase mt-3">100 % pratique d'utilisation</h5>
           <p>
@@ -379,7 +380,7 @@
 <!--Start objectif six-->
 
       <div class="col-lg-4">
-        <img src="/home/nathalie/Images/Trophy.jpg" class="img-fluid rounded-circle w-25" alt="Formations certifiantes" />
+        <img src="images/picto-formation.png" alt="Formations certifiantes" />
         
           <h5 class="text-center text-uppercase mt-3">Formations certifiantes organisme agréé DPC</h5>
           <p>
@@ -438,11 +439,12 @@
 
   <!--Third section : pedagogy-->
 
-  <section class="container py-5" id="pedagogy">
-    <h1 class="text-center text-uppercase text-danger">Pédagogie</h1>
-    <div class="w-80 m-auto card-deck justify-content-center mt-5">
+  <section class="container py-5 px-0" id="pedagogy">
+    <h1 class="text-center text-uppercase">Pédagogie</h1>
+    <img class="elect" src="images/picto-elect.png" alt="picto-elect" />
+    <div class="w-80 m-auto card-deck">
       <div class="card">
-        <img src="images/pedagogieNum.jpeg" class="card-img-fluid p-3 w-35 h-10" alt="pedagogie1" />
+        <img class="card-img-fluid" src="images/pedagogie1.jpg" alt="Pedagogie1" />
         <div class="card-body">
           <h5 class="card-title text-danger">Pédagogie 1</h5>
           <p class="card-text">
@@ -497,7 +499,7 @@
       <!--Start Second Pedagogy-->
 
       <div class="card">
-        <img src="images/question.jpeg" class="card-img-fluid p-3 w-35 h-10 " alt="pedagogie2" />
+        <img class="card-img-fluid" src="images/pedagogie2.jpg" alt="Pedagogie2" />
         <div class="card-body">
           <h5 class="card-title text-danger">Pédagogie 2</h5>
           <p class="card-text">
@@ -549,7 +551,7 @@
       <!--Start Third pedagogy-->
 
       <div class="card">
-        <img src="images/ideas.jpeg" class="card-img-fluid p-3 w-35 h-10 " alt="pedagogie3" />
+        <img class="card-img-fluid" src="images/pedagogie3.jpg" alt="Pedagogie3" />
         <div class="card-body">
           <h5 class="card-title text-danger">Pédagogie 3</h5>
           <p class="card-text">
@@ -601,7 +603,7 @@
 
   <!--Fourth section : statistics-->
 
-  <section class="container-fluid py-5 bg-secondary text-white" id="statistics">
+  <section class="container-fluid py-5 text-white" id="statistics">
     <h1 class="text-uppercase text-center mb-5">Les chiffres</h1>
     <div class="w-75 row justify-content-center m-auto">
       <div class="col-lg-3">
@@ -630,7 +632,8 @@
 <!--Form-->
 
   <section class="container py-5" id="nousContacter">
-    <h1 class="text-center text-uppercase text-danger">Nous contacter</h1>
+    <h1 class="text-center text-uppercase">Nous contacter</h1>
+    <img class="elect" src="images/picto-elect.png" alt="picto-elect" />
 </section>
 
 <!--Footer-->
