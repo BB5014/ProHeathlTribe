@@ -1,62 +1,71 @@
 html {
-  width: 100%;
+	width: 100%;
 }
 body {
-  width: 95%;
-  margin: auto;
+	width: 95%;
+	margin: auto;
 }
 
 a {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 800;
-  color: #434343;
-  size: 16px;
+	font-family: "Catamaran", sans-serif;
+	font-weight: 800;
+	color: #434343;
+	size: 16px;
 }
 li {
-  padding-right: 1rem;
+	padding-right: 1rem;
 }
 ul {
-  margin: auto;
+	margin: auto;
 }
 
 h1 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 800;
-  color: #cb4849;
-  size: 30px;
+	font-family: "Catamaran", sans-serif;
+	font-weight: 800;
+	color: #cb4849;
+	size: 30px;
 }
 h5 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 800;
-  size: 20px;
+	font-family: "Catamaran", sans-serif;
+	font-weight: 800;
+	size: 20px;
 }
 
 #concept p,
 #pedagogy p {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 100;
-  color: #434343;
-  size: 17px;
+	font-family: "Catamaran", sans-serif;
+	font-weight: 100;
+	color: #434343;
+	size: 17px;
 }
 #objectifs p,
 #statistics p {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 100;
-  size: 17px;
+	font-family: "Catamaran", sans-serif;
+	font-weight: 100;
+	size: 17px;
 }
 
 .elect {
-  display: block;
-  margin: auto;
+	display: block;
+	margin: auto;
 }
 .triggerModal {
-  border-radius: 20px;
+	border-radius: 20px;
 }
 .card,
 .pedagogy {
-  border: 0;
+	border: 0;
 }
 
 #statistics {
-  background-image: url("images/img-parallax.jpg");
+	background-image: url("images/img-parallax.jpg");
+}
+.quiz img {
+	padding: 0.5rem;
+}
+.imgQuiz {
+	opacity: 0.8;
+	color: white;
+	background: black;
+	width: 25rem;
 }
