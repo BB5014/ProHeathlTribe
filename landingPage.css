@@ -39,7 +39,8 @@ h5 {
 	size: 17px;
 }
 #objectifs p,
-#statistics p {
+#statistics p,
+.quiz p {
 	font-family: "Catamaran", sans-serif;
 	font-weight: 100;
 	size: 17px;
@@ -63,9 +64,14 @@ h5 {
 .quiz img {
 	padding: 0.5rem;
 }
-.imgQuiz {
+.card-img-overlay {
 	opacity: 0.8;
 	color: white;
 	background: black;
-	width: 25rem;
+	width: 70%;
+	height: 100%;
+	margin-left: 8rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: 1rem;
 }
