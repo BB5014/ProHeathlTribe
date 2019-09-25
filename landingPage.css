@@ -5,6 +5,13 @@ body {
 	width: 95%;
 	margin: auto;
 }
+header {
+	display: block;
+	justify-content: center;
+}
+#logoNavbar {
+	margin-left: 5rem;
+}
 
 a {
 	font-family: "Catamaran", sans-serif;
@@ -31,12 +38,19 @@ h5 {
 	size: 20px;
 }
 
+button,
+h1 {
+	text-transform: uppercase;
+}
+
 #concept p,
-#pedagogy p {
+#pedagogy p,
+.pictures p {
 	font-family: "Catamaran", sans-serif;
 	font-weight: 100;
 	color: #434343;
 	size: 17px;
+	text-align: center;
 }
 #objectifs p,
 #statistics p,
@@ -69,9 +83,6 @@ h5 {
 	color: white;
 	background: black;
 	width: 70%;
-	height: 100%;
-	margin-left: 8rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin: 2rem 0rem 2rem 8rem;
 	padding: 1rem;
 }
