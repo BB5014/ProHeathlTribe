@@ -9,8 +9,16 @@ header {
 	display: block;
 	justify-content: center;
 }
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0.2rem;
+		padding-left: 0.2rem;
+	}
+}
+
 #logoNavbar {
-	margin-left: 5rem;
+	width: 160px;
 }
 
 a {
