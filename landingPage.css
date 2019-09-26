@@ -86,3 +86,19 @@ h1 {
 	margin: 2rem 0rem 2rem 8rem;
 	padding: 1rem;
 }
+footer,
+.container-fluid {
+	padding-right: 0rem;
+	padding-left: 0rem;
+	font-family: "Catamaran", sans-serif;
+	font-weight: 100;
+	size: 17px;
+}
+
+.footer-bis {
+	display: inline-flex;
+	width: 100%;
+	height: 3rem;
+	padding-left: 10rem;
+	align-items: center;
+}
