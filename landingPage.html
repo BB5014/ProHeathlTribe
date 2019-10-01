@@ -17,6 +17,9 @@
   </head>
 
 <body> 
+
+  <!--Header-->
+
   <header class="container">
     
     <!--Navbar-->
@@ -27,10 +30,16 @@
           <!-- <a class="navbar-brand" href="#logoNavbar">  --> 
             <img class="img-fluid" src="images/logo.png"  alt="logoNavbar" id="logoNavbar">
             <!-- </a> -->
+
+            <!--Menu burger-->
+
             <button class="navbar-toggler collapsed bg-danger" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollpase" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <!--End menu burger-->
+
           <div class="collapse navbar-collapse" id="navbarCollapse">
             
             <ul class="navbar-nav">
@@ -60,7 +69,7 @@
 
     <!--Banner-->
     
-    <div class="container-fluid introduction"> 
+    <div class="container-fluid" id="banner"> 
       <div class="row">
         <div class="col-md-12">
           <div class="media shadow-sm">
@@ -70,11 +79,13 @@
         </div>
       </div>
     </div>
+
+    <!--End banner-->
     
     <!--Fisrt section : Concept-->
     
     <section class="container py-5" id="concept">
-      <h1 class="text-center text-uppercase">Notre concept</h1>
+      <h1>Notre concept</h1>
       <img class="elect" src="images/picto-elect.png" alt="Elect">
       <div class="row"> 
         <div class="col-lg-12 justify-content-center">
@@ -96,8 +107,8 @@
     <!--Second section : objectifs-->
     
     <section class="container-fluid p-3 bg-danger text-white" id="objectifs">
-      <img src="images/picto-coeur.png" alt="Coeur">
-      <h1 class="m-3 text-center text-uppercase text-white">Les Objectifs</h1>
+      <img class="core" src="images/picto-coeur.png" alt="Coeur">
+      <h1 class="m-3 text-white">Les Objectifs</h1>
       
       <!--Start objectif one-->
       
@@ -237,24 +248,14 @@
   
   <!--Third section : pedagogy-->
 
-    
-    
-
-
-      
-      
-    
-
-
-
 <section class="container py-5 px-0" id="pedagogy">
-  <h1 class="text-center text-uppercase">Pédagogie</h1>
+  <h1>Pédagogie</h1>
   <img class="elect" src="images/picto-elect.png" alt="picto-elect">
     <div class="w-80 m-auto card-deck">
       <div class="card">
         <img class="card-img-fluid" src="images/pedagogie1.jpg" alt="Pedagogie1">
         <div class="card-body">
-          <h5 class="card-title text-danger">Pédagogie 1</h5>
+          <h5 class="card-title">Pédagogie 1</h5>
           <p class="card-text">
             This is a wider card with supporting text below as a natural
             lead-in to additional content. This content is a little bit
@@ -280,7 +281,7 @@
     <div class="card">
       <img class="card-img-fluid" src="images/pedagogie2.jpg" alt="Pedagogie2">
       <div class="card-body">
-        <h5 class="card-title text-danger">Pédagogie 2</h5>
+        <h5 class="card-title">Pédagogie 2</h5>
         <p class="card-text">
           This is a wider card with supporting text below as a natural
           lead-in to additional content. This content is a little bit
@@ -292,47 +293,17 @@
         <button type="button" class="triggerModal btn-sm btn-danger" data-toggle="modal" data-target="#exampleModalLongP2">
           En savoir plus
         </button>
-        
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalLongP2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLongTitleP2" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitleP2">
-                Pédagogie 2
-              </h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sunt distinctio odio non ab aspernatur magnam ad.
-                Voluptate id officia ut, quae doloremque doloribus neque
-                incidunt deleniti, labore quisquam vel dolore!
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">
-                Fermer
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-  </div>
-
-  <!--End second pedagogy-->
-  
-  <!--Start Third pedagogy-->
+        
+    <!--End second pedagogy-->
+        
+    <!--Start Third pedagogy-->
   
   <div class="card">
     <img class="card-img-fluid" src="images/pedagogie3.jpg" alt="Pedagogie3">
     <div class="card-body">
-      <h5 class="card-title text-danger">Pédagogie 3</h5>
+      <h5 class="card-title">Pédagogie 3</h5>
       <p class="card-text">
         This is a wider card with supporting text below as a natural
         lead-in to additional content. This content is a little bit
@@ -344,74 +315,59 @@
       <button type="button" class="triggerModal btn-sm btn-danger" data-toggle="modal" data-target="#exampleModalLongP3">
         En savoir plus
       </button>
-      
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModalLongP3" tabindex="-1" role="dialog"
-      aria-labelledby="exampleModalLongTitleP3" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitleP3">
-              Pédagogie 3
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sunt distinctio odio non ab aspernatur magnam ad.
-              Voluptate id officia ut, quae doloremque doloribus neque
-              incidunt deleniti, labore quisquam vel dolore!
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-warning" data-dismiss="modal">
-              Fermer
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-</div>
+  </div>
 </section>
 
 <!--End Third pedagogy-->
 
 <!--Fourth section : statistics-->
 
-<section class="container-fluid py-5 text-white" id="statistics">
-  <h1 class="text-uppercase text-center mb-5">Les chiffres</h1>
-  <div class="w-75 row justify-content-center m-auto">
-      <div class="col-lg-3 col-md-6">
-        <h5 class="uppercase">CA x <span class="counter">12</span></h5>
+<section class="container-fluid py-5" id="statistics">
+  <div class="container"> 
+  <h1 class="mb-5">Les chiffres</h1>
+  <div class="stats row m-auto">
+      <div class="stat1 col-lg-3 col-md-6">
+        <h3>CA x <span class="counter">12</span></h3>
         <p>de l'e-learning en France entre 2018 et 2022</p>
+        <div class="sep"> 
+        <hr class="separator">
+        </div>
       </div>
       
-      <div class="col-lg-3 col-md-6">
-        <h5 class="uppercase"><span class="counter">100</span> millions</h5>
+      <div class="stat2 col-lg-3 col-md-6">
+        <h3><span class="counter">100</span> millions</h3>
         <p>de pros santé dans le monde</p>
+        <div class="sep">
+        <hr class="separator">
       </div>
+  </div>
       
-      <div class="col-lg-3 col-md-6">
-        <h5 class="uppercase"><span class="counter">70</span>%</h5>
+      <div class="stat3 col-lg-3 col-md-6">
+        <h3><span class="counter">70</span>%</h3>
         <p>des formations pratiques médicales digitalisables grâce aux technologies numériques avancées</p>
+        <div class="sep"> 
+        <hr class="separator">
+      </div>
       </div>
       
-      <div class="col-lg-3 col-md-6">
-        <h5 class="uppercase">+ DE <span class="counter">80</span>%</h5>
+      <div class="stat4 col-lg-3 col-md-6">
+        <h3>+ DE <span class="counter">80</span>%</h3>
         <p>des professionnels de la santé en France prêts à suivre une formation en ligne</p>
+        <div class="sep">
+        <hr class="separator">
+      </div>
       </div> 
     </div> 
+    </div>
   </section>
   
   <!--Section with img-overlay-->
   
-  <section class="quiz container py-5"> 
+  <section class="container py-5" id="quiz"> 
     <div class="d-flex justify-content-center">
-      <div class="card"> 
+      <div class="card quiz"> 
         <img class="img-fluid" src="images/visu-questionnaire.jpg" alt="quiz">    
         <div class="card-img-overlay"> 
           <h5 class="card-title">Afin de mieux vous connaître...</h5>
@@ -437,8 +393,8 @@
       
 <!--Fifth section : pictures formation-->
 
-<section class="pictures container-fluid py-5 px-0">
-  <h1 class="text-center text-uppercase">Photos formation backstage</h1>
+<section class="container-fluid py-5 px-0" id="pictures">
+  <h1>Photos formation backstage</h1>
   <img class="elect" src="images/picto-elect.png" alt="picto-elect">
     <p>Petit avant-goût de notre dernière formation sur les "Etirements passifs" avec notre formateur ostéopathe Guy Chantrieux</p>
     <div class="row m-auto"> 
@@ -466,13 +422,13 @@
 <!--Form-->
 
 <section class="container py-5" id="nousContacter">
-  <h1 class="text-center text-uppercase">Nous contacter</h1>
+  <h1>Nous contacter</h1>
   <img class="elect" src="images/picto-elect.png" alt="picto-elect">
 </section>
 
 <!--Footer-->
 
-<footer class="container-fluid pt-3 bg-secondary">
+<footer class="container-fluid pt-3 bg-secondary" id="footer">
   <div class="row"> 
     <div class="offset-lg-2 col-lg-3"> 
       <img class="img-fluid ml-25" src="images/logo-footer.png" alt="logo footer" id="logoFooter">
@@ -501,7 +457,7 @@
             <h5 class="modal-title" id="exampleModalLongTitle">
               Approche 100 % en ligne multi-supports
             </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" class="close" text-transform: uppercase;data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -707,6 +663,68 @@
             </div>
           </div>
         </div>
+
+  <!--Second Modal Pedagogy -->
+
+        <div class="modal fade" id="exampleModalLongP2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLongTitleP2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitleP2">
+                Pédagogie 2
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt distinctio odio non ab aspernatur magnam ad.
+                Voluptate id officia ut, quae doloremque doloribus neque
+                incidunt deleniti, labore quisquam vel dolore!
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">
+                Fermer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!--Third Modal Pedagogy -->
+
+      <div class="modal fade" id="exampleModalLongP3" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLongTitleP3" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitleP3">
+              Pédagogie 3
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sunt distinctio odio non ab aspernatur magnam ad.
+              Voluptate id officia ut, quae doloremque doloribus neque
+              incidunt deleniti, labore quisquam vel dolore!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-dismiss="modal">
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- Optional JavaScript -->
   
