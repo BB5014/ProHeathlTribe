@@ -1,754 +1,1189 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="landingPage.css" />
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,800&display=swap" rel="stylesheet">
-    
-    <title>PHT</title>
-  </head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<body> 
+		<!-- Bootstrap CSS -->
 
-  <!--Header-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
 
-  <header class="container">
-    
-    <!--Navbar-->
+		<!--CSS-->
+		<link rel="stylesheet" href="pofo/css/style.css" />
+		<link rel="stylesheet" href="pofo/css/responsive.css" />
+		<link rel="stylesheet" href="landingPage.css" />
 
-    <div class="row"> 
-      <div class="col-lg-12"> 
-        <nav class="navbar navbar-expand-lg bg-white">
-          <!-- <a class="navbar-brand" href="#logoNavbar">  --> 
-            <img class="img-fluid" src="images/logo.png"  alt="logoNavbar" id="logoNavbar">
-            <!-- </a> -->
+		<!--Fonts-->
 
-            <!--Menu burger-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Catamaran:100,800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap"
+			rel="stylesheet"
+		/>
 
-            <button class="navbar-toggler collapsed bg-danger" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollpase" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+		<title>PHT</title>
+	</head>
 
-          <!--End menu burger-->
+	<body>
+		<!--Header-->
 
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            
-            <ul class="navbar-nav">
-              <li class="nav-item  active">
-                <a class="nav-link text-danger" href="#concept">LE CONCEPT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#objectifs">OBJECTIF</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pedagogy">PEDAGOGIE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#statistics">QUELQUES CHIFFRES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#nousContacter" tabindex="-1" aria-disabled="true">NOUS CONTACTER</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
+		<header class="container">
+			<!--Navbar-->
 
-  <!--End navbar and header-->
+			<div class="row">
+				<div class="col-lg-12">
+					<nav class="navbar navbar-expand-lg bg-white">
+						<!-- <a class="navbar-brand" href="#logoNavbar">  -->
+						<img
+							class="img-fluid"
+							src="images/logo.png"
+							alt="logoNavbar"
+							id="logoNavbar"
+						/>
+						<!-- </a> -->
 
-    <!--Banner-->
-    
-    <div class="container-fluid" id="banner"> 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="media shadow-sm">
-            <iframe width="3500" height="350" src="https://www.youtube.com/embed/RH3i7qONrT4" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
+						<!--Menu burger-->
 
-    <!--End banner-->
-    
-    <!--Fisrt section : Concept-->
-    
-    <section class="container py-5" id="concept">
-      <h1>Notre concept</h1>
-      <img class="elect" src="images/picto-elect.png" alt="Elect">
-      <div class="row"> 
-        <div class="col-lg-12 justify-content-center">
-          <p class="d-flex m-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo
-            minima iste cupiditate rem. Amet consectetur nemo odit itaque, enim
-            porro vel voluptate cupiditate placeat sed, aliquid consequuntur, quasi
-            quae. Lorem ipsum dolor 205sit amet consectetur adipisicing elit. Modi
-            explicabo minima iste cupiditate rem. Amet consectetur nemo odit itaque,
-            enim porro vel voluptate cupiditate placeat sed, aliquid consequuntur,
-            quasi quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Modi explicabo minima iste cupiditate rem. Amet consectetur nemo odit
-            itaque.
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <!--Second section : objectifs-->
-    
-    <section class="container-fluid p-3 bg-danger text-white" id="objectifs">
-      <img class="core" src="images/picto-coeur.png" alt="Coeur">
-      <h1 class="m-3 text-white">Les Objectifs</h1>
-      
-      <!--Start objectif one-->
-      
-      <div class="w-75 row justify-content-center text-center m-auto">
-        <div class="col-lg-4  col-sm-4 col-xs-2">
-          <img src="images/picto-wifi.png" alt="Wifi">          
-          <h5 class="text-center text-uppercase mt-3">Approche 100% en ligne multi-supports</h5>
-          <p>
-            This is a wider card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit
-            longer.
-          </p>
-          
-          <!--First Button trigger modal -->
+						<button
+							class="navbar-toggler collapsed bg-danger"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navbarCollapse"
+							aria-controls="navbarCollpase"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
 
-          <div class="footer p-3">
-            <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong">
-              En savoir plus
-            </button>
-          </div>              
-        </div>
-        
-      <!--End objectif one-->
-      
-      <!--Start objectif two-->
-      
-      <div class="col-lg-4 col-sm-4 col-xs-2">
-        <img src="images/picto-reseau-social.png"  alt="Reseau social">
-        
-        <h5 class="text-center text-uppercase mt-3">Réseau social unique "Pro santé"</h5>
-        <p>
-          This is a wider card with supporting text below as a natural
-          lead-in to additional content. This content is a little bit
-          longer.
-        </p>
-        <!-- Second Button trigger modal -->
-        <div class="footer p-3">
-          <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong2">
-            En savoir plus
-          </button>
-        </div>
-      </div>
-          
-    <!--End objectif two-->
+						<!--End menu burger-->
 
-    <!--Start objectif three-->
-    
-    <div class="col-lg-4 col-sm-4 col-xs-2">
-      <img src="images/picto-multilingue.png"  alt="multilingues">
-      <h5 class="text-center text-uppercase mt-3">Formations accessibles en multilingues</h5>
-      <p>
-        This is a wider card with supporting text below as a natural
-        lead-in to additional content. This content is a little bit
-        longer.
-      </p>
+						<div
+							class="collapse navbar-collapse"
+							id="navbarCollapse"
+						>
+							<ul class="navbar-nav">
+								<li class="nav-item  active">
+									<a
+										class="nav-link text-danger"
+										href="#concept"
+										>LE CONCEPT</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#objectifs"
+										>OBJECTIF</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#pedagogy"
+										>PEDAGOGIE</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#statistics"
+										>QUELQUES CHIFFRES</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-link"
+										href="#nousContacter"
+										tabindex="-1"
+										aria-disabled="true"
+										>NOUS CONTACTER</a
+									>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-      <!-- Third Button trigger modal -->
-      
-      <div class="footer p-3">
-        <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong3">
-          En savoir plus
-        </button>
-      </div>
-  </div>
-  
-  <!--End objectif three-->
-  
-  <hr class="w-100 m-5" color="white">
-  
-  <!--Start objectif four-->
-  
-  <div class="col-lg-4 col-sm-4 col-xs-2">
-    <img src="images/picto-connaissances.png" alt="Connaissances">
-    <h5 class="text-center text-uppercase mt-3">Transversalité des connaissances médicales</h5>
-    <p>
-      This is a wider card with supporting text below as a natural
-      lead-in to additional content. This content is a little bit
-      longer.
-    </p>
-    
-  <!-- Fourth Button trigger modal -->
+		<!--End navbar and header-->
 
-    <div class="footer p-3">
-      <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong4">
-        En savoir plus
-      </button>
-    </div>
-  </div>
+		<!--Banner-->
 
-  <!--End objectif four-->    
+		<div class="container-fluid" id="banner">
+			<div class="row">
+				<div class="col-lg">
+					<div class="media">
+						<img class="media-player" src="images/player.png" />
+					</div>
+				</div>
+			</div>
 
-  <!--Start objectif five-->
+			<div class="row">
+				<div class="col-lg">
+					<div class="media-body">
+						<h2 class="media-heading">
+							Grow your health expertise
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
 
-  <div class="col-lg-4 col-sm-4 col-xs-2">
-    <img src="images/picto-utilisation.png" alt="Utilisation">
-    <h5 class="text-center text-uppercase mt-3">100 % pratique d'utilisation</h5>
-    <p>
-      This is a wider card with supporting text below as a natural
-      lead-in to additional content. This content is a little bit
-      longer.
-    </p>
+		<!--End banner-->
 
-    <!--Fifth Button trigger modal -->
+		<!--Fisrt section : Concept-->
 
-    <div class="footer p-3">
-      <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong5">
-        En savoir plus
-      </button>
-    </div>
-  </div>
-      
-  <!--End objectif five-->
-  
-  <!--Start objectif six-->
-        
-  <div class="col-lg-4 col-sm-4 col-xs-2">
-    <img src="images/picto-formation.png" alt="Formations certifiantes">
-    <h5 class="text-center text-uppercase mt-3">Formations certifiantes organisme agréé DPC</h5>
-    <p>
-      This is a wider card with supporting text below as a natural
-      lead-in to additional content. This content is a little bit
-      longer.
-    </p>
-    
-    <!-- Sixth Button trigger modal -->
+		<section class="container py-5" id="concept">
+			<h1>Notre concept</h1>
+			<img class="elect" src="images/picto-elect.png" alt="Elect" />
+			<div class="row">
+				<div class="col-lg-12 justify-content-center">
+					<p class="d-flex m-2">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Modi explicabo minima iste cupiditate rem. Amet
+						consectetur nemo odit itaque, enim porro vel voluptate
+						cupiditate placeat sed, aliquid consequuntur, quasi
+						quae. Lorem ipsum dolor 205sit amet consectetur
+						adipisicing elit. Modi explicabo minima iste cupiditate
+						rem. Amet consectetur nemo odit itaque, enim porro vel
+						voluptate cupiditate placeat sed, aliquid consequuntur,
+						quasi quae. Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Modi explicabo minima iste cupiditate
+						rem. Amet consectetur nemo odit itaque.
+					</p>
+				</div>
+			</div>
+		</section>
 
-    <div class="footer p-3">
-      <button type="button" class="triggerModal btn-sm bg-white" data-toggle="modal" data-target="#exampleModalLong6">
-        En savoir plus
-      </button>
-    </div>
-  </div>
-  </div>   
-  </section>
+		<!--Second section : objectifs-->
 
-  <!--End objectif six-->   
-  
-  <!--Third section : pedagogy-->
+		<section
+			class="container-fluid p-3 bg-danger text-white"
+			id="objectifs"
+		>
+			<img class="core" src="images/picto-coeur.png" alt="Coeur" />
+			<h1 class="m-3 text-white">Les Objectifs</h1>
 
-<section class="container py-5 px-0" id="pedagogy">
-  <h1>Pédagogie</h1>
-  <img class="elect" src="images/picto-elect.png" alt="picto-elect">
-    <div class="w-80 m-auto card-deck">
-      <div class="card">
-        <img class="card-img-fluid" src="images/pedagogie1.jpg" alt="Pedagogie1">
-        <div class="card-body">
-          <h5 class="card-title">Pédagogie 1</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit
-            longer.
-          </p>
-        </div>
-        <div class="footer p-3">
-          
-          <!-- Frist Button trigger modal pedagogy -->
-          
-          <button type="button" class="triggerModal btn-sm btn-danger" data-toggle="modal" data-target="#exampleModalLongP1">
-            En savoir plus
-          </button>
-          
-          
-      </div>
-    </div>
-    
-    <!--End First pedogogy-->
-    
-    <!--Start Second Pedagogy-->
-    
-    <div class="card">
-      <img class="card-img-fluid" src="images/pedagogie2.jpg" alt="Pedagogie2">
-      <div class="card-body">
-        <h5 class="card-title">Pédagogie 2</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural
-          lead-in to additional content. This content is a little bit
-          longer.
-        </p>
-      </div>
-      <div class="footer p-3">
-        <!-- Button trigger modal -->
-        <button type="button" class="triggerModal btn-sm btn-danger" data-toggle="modal" data-target="#exampleModalLongP2">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-        
-    <!--End second pedagogy-->
-        
-    <!--Start Third pedagogy-->
-  
-  <div class="card">
-    <img class="card-img-fluid" src="images/pedagogie3.jpg" alt="Pedagogie3">
-    <div class="card-body">
-      <h5 class="card-title">Pédagogie 3</h5>
-      <p class="card-text">
-        This is a wider card with supporting text below as a natural
-        lead-in to additional content. This content is a little bit
-        longer.
-      </p>
-    </div>
-    <div class="footer p-3">
-      <!-- Button trigger modal -->
-      <button type="button" class="triggerModal btn-sm btn-danger" data-toggle="modal" data-target="#exampleModalLongP3">
-        En savoir plus
-      </button>
-    </div>
-  </div>
-  </div>
-</section>
+			<!--Start objectif one-->
 
-<!--End Third pedagogy-->
+			<div class="w-75 row justify-content-center text-center m-auto">
+				<div class="col-lg-4  col-sm-4 col-xs-2">
+					<img src="images/picto-wifi.png" alt="Wifi" />
+					<h5 class="text-center text-uppercase mt-3">
+						Approche 100% en ligne multi-supports
+					</h5>
+					<p>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</p>
 
-<!--Fourth section : statistics-->
+					<!--First Button trigger modal -->
 
-<section class="container-fluid py-5" id="statistics">
-  <div class="container"> 
-  <h1 class="mb-5">Les chiffres</h1>
-  <div class="stats row m-auto">
-      <div class="stat1 col-lg-3 col-md-6">
-        <h3>CA x <span class="counter">12</span></h3>
-        <p>de l'e-learning en France entre 2018 et 2022</p>
-        <div class="sep"> 
-        <hr class="separator">
-        </div>
-      </div>
-      
-      <div class="stat2 col-lg-3 col-md-6">
-        <h3><span class="counter">100</span> millions</h3>
-        <p>de pros santé dans le monde</p>
-        <div class="sep">
-        <hr class="separator">
-      </div>
-  </div>
-      
-      <div class="stat3 col-lg-3 col-md-6">
-        <h3><span class="counter">70</span>%</h3>
-        <p>des formations pratiques médicales digitalisables grâce aux technologies numériques avancées</p>
-        <div class="sep"> 
-        <hr class="separator">
-      </div>
-      </div>
-      
-      <div class="stat4 col-lg-3 col-md-6">
-        <h3>+ DE <span class="counter">80</span>%</h3>
-        <p>des professionnels de la santé en France prêts à suivre une formation en ligne</p>
-        <div class="sep">
-        <hr class="separator">
-      </div>
-      </div> 
-    </div> 
-    </div>
-  </section>
-  
-  <!--Section with img-overlay-->
-  
-  <section class="container py-5" id="quiz"> 
-    <div class="d-flex justify-content-center">
-      <div class="card quiz"> 
-        <img class="img-fluid" src="images/visu-questionnaire.jpg" alt="quiz">    
-        <div class="card-img-overlay"> 
-          <h5 class="card-title">Afin de mieux vous connaître...</h5>
-          <p class="card-text">Il est important pour nous de mieux vous connaître. Répondre à ce court questionnaire serait un réel plus afin d'identifier votre comportement, vos besoins et vos attentes en termes de e-learning.</p>
-          <div class="card-footer">     
-            <a href="#" class="btn btn-danger">REPONDRE AU QUESTIONNAIRE</a>
-          </div>
-          </div>
-        </div>
-        
-        <div class="card"> 
-          <img class="img-fluid" src="images/visu-soutien.jpg" alt="staff">
-          <div class="card-img-overlay"> 
-            <h5 class="card-title">Nous avons besoin de vous !</h5>
-              <p class="card-text">Pour que Pro Health Tribe voit le jour dans les meilleures conditions, votre soutien financier serait un réel plus pour nous !</p>
-              <div class="card-footer">     
-                <a href="#" class="btn btn-danger">EN SAVOIR PLUS</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-<!--Fifth section : pictures formation-->
+					<div class="footer p-3">
+						<button
+							type="button"
+							class="triggerModal btn-sm bg-white"
+							data-toggle="modal"
+							data-target="#exampleModalLong"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
 
-<section class="container-fluid py-5 px-0" id="pictures">
-  <h1>Photos formation backstage</h1>
-  <img class="elect" src="images/picto-elect.png" alt="picto-elect">
-    <p>Petit avant-goût de notre dernière formation sur les "Etirements passifs" avec notre formateur ostéopathe Guy Chantrieux</p>
-    <div class="row m-auto"> 
-      <div class="col-xl-2 col-md-4 col-sm-6 col-xs-1"> 
-        <img src="images/photo1.jpg" alt="spine">
-      </div>
-      <div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
-      <img src="images/photo2.jpg" alt="skull">
-    </div>
-    <div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
-      <img src="images/photo3.jpg" alt="pratice">
-    </div>
-    <div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
-      <img src="images/photo4.jpg" alt="skeleton of the hand">
-    </div>
-    <div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
-      <img src="images/photo5.jpg" alt="face anterior makeup">
-    </div>
-    <div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
-      <img src="images/photo6.jpg" alt="face posterior makeup">
-    </div>
-  </div>
-</section>
+				<!--End objectif one-->
 
-<!--Form-->
+				<!--Start objectif two-->
 
-<section class="container py-5" id="nousContacter">
-  <h1>Nous contacter</h1>
-  <img class="elect" src="images/picto-elect.png" alt="picto-elect">
-</section>
+				<div class="col-lg-4 col-sm-4 col-xs-2">
+					<img
+						src="images/picto-reseau-social.png"
+						alt="Reseau social"
+					/>
 
-<!--Footer-->
+					<h5 class="text-center text-uppercase mt-3">
+						Réseau social unique "Pro santé"
+					</h5>
+					<p>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</p>
+					<!-- Second Button trigger modal -->
+					<div class="footer p-3">
+						<button
+							type="button"
+							class="triggerModal btn-sm bg-white"
+							data-toggle="modal"
+							data-target="#exampleModalLong2"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
 
-<footer class="container-fluid pt-3 bg-secondary" id="footer">
-  <div class="row"> 
-    <div class="offset-lg-2 col-lg-3"> 
-      <img class="img-fluid ml-25" src="images/logo-footer.png" alt="logo footer" id="logoFooter">
-    </div>
-    <div class="col-lg-4"> 
-      <div class="text-center text-white"> 
-        <p>PROHEALTHTRIBE</p>
-        <p>ESTIA - Technopole Izarbel, 64210 BIDART</p>
-        <p>PROHEALTHTRIBECONTACT@GMAIL.COM</p>
-        <p>+33 (0)6 76 04 11 88</p>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bis bg-dark text-light"> 
-    Réalisation Redbox - Copyright 2019</div>
-  </footer>
-  
-<!--===========================================MODALS OBJECTIFS==================================================-->      
-      <!--First Modal Objectifs-->
-      
-      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-      aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">
-              Approche 100 % en ligne multi-supports
-            </h5>
-            <button type="button" class="close" text-transform: uppercase;data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sunt distinctio odio non ab aspernatur magnam ad.
-              Voluptate id officia ut, quae doloremque doloribus neque
-              incidunt deleniti, labore quisquam vel dolore!
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-info" data-dismiss="modal">
-              Fermer
-            </button>
-          </div>
-        </div>
-      </div>
-      </div>
+				<!--End objectif two-->
 
-      <!--Second Modal Objectifs-->
-        
-        <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle2">
-                Réseau social unique "Pro santé"
-              </h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sunt distinctio odio non ab aspernatur magnam ad.
-                Voluptate id officia ut, quae doloremque doloribus neque
-                incidunt deleniti, labore quisquam vel dolore!
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-info" data-dismiss="modal">
-                Fermer
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+				<!--Start objectif three-->
 
-      <!--Third Modal Objectifs-->
-        
-      <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog"
-      aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle3">
-              Formations accessibles en multilingues
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sunt distinctio odio non ab aspernatur magnam ad.
-              Voluptate id officia ut, quae doloremque doloribus neque
-              incidunt deleniti, labore quisquam vel dolore!
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-info" data-dismiss="modal">
-              Fermer
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+				<div class="col-lg-4 col-sm-4 col-xs-2">
+					<img
+						src="images/picto-multilingue.png"
+						alt="multilingues"
+					/>
+					<h5 class="text-center text-uppercase mt-3">
+						Formations accessibles en multilingues
+					</h5>
+					<p>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</p>
 
-        <!--Fourth Modal Objectifs-->
-    
-    <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle4">
-            Transversalité des connaissances médicales
-          </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sunt distinctio odio non ab aspernatur magnam ad.
-            Voluptate id officia ut, quae doloremque doloribus neque
-            incidunt deleniti, labore quisquam vel dolore!
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-info" data-dismiss="modal">
-            Fermer
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+					<!-- Third Button trigger modal -->
 
-  <!-- Fifth Modal Objectifs-->
-    
-    <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalLongTitle5" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle5">
-            100 % pratique d'utilisation
-          </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sunt distinctio odio non ab aspernatur magnam ad.
-            Voluptate id officia ut, quae doloremque doloribus neque
-            incidunt deleniti, labore quisquam vel dolore!
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-info" data-dismiss="modal">
-            Fermer
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+					<div class="footer p-3">
+						<button
+							type="button"
+							class="triggerModal btn-sm bg-white"
+							data-toggle="modal"
+							data-target="#exampleModalLong3"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
 
-    <!--Sixth Modal Objectifs-->
-    
-    <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalLongTitle6" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle6">
-            Formations certifiantes, organisme agréé DPC
-          </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sunt distinctio odio non ab aspernatur magnam ad.
-            Voluptate id officia ut, quae doloremque doloribus neque
-            incidunt deleniti, labore quisquam vel dolore!
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-info" data-dismiss="modal">
-            Fermer
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-<!--======================================MODALS PEDAGOGY=======================================================-->
-  <!-- First Modal Pedagogy -->
-          
-          <div class="modal fade" id="exampleModalLongP1" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalLongTitleP1" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitleP1">
-                  Pédagogie 1
-                </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Sunt distinctio odio non ab aspernatur magnam ad.
-                  Voluptate id officia ut, quae doloremque doloribus neque
-                  incidunt deleniti, labore quisquam vel dolore!
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">
-                  Fermer
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+				<!--End objectif three-->
 
-  <!--Second Modal Pedagogy -->
+				<hr class="w-100 m-5" color="white" />
 
-        <div class="modal fade" id="exampleModalLongP2" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLongTitleP2" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitleP2">
-                Pédagogie 2
-              </h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sunt distinctio odio non ab aspernatur magnam ad.
-                Voluptate id officia ut, quae doloremque doloribus neque
-                incidunt deleniti, labore quisquam vel dolore!
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-warning" data-dismiss="modal">
-                Fermer
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+				<!--Start objectif four-->
 
-  <!--Third Modal Pedagogy -->
+				<div class="col-lg-4 col-sm-4 col-xs-2">
+					<img
+						src="images/picto-connaissances.png"
+						alt="Connaissances"
+					/>
+					<h5 class="text-center text-uppercase mt-3">
+						Transversalité des connaissances médicales
+					</h5>
+					<p>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</p>
 
-      <div class="modal fade" id="exampleModalLongP3" tabindex="-1" role="dialog"
-      aria-labelledby="exampleModalLongTitleP3" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitleP3">
-              Pédagogie 3
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sunt distinctio odio non ab aspernatur magnam ad.
-              Voluptate id officia ut, quae doloremque doloribus neque
-              incidunt deleniti, labore quisquam vel dolore!
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-warning" data-dismiss="modal">
-              Fermer
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+					<!-- Fourth Button trigger modal -->
 
-  <!-- Optional JavaScript -->
-  
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function(){
-    $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-});
-})
-  </script>
-  </body>
+					<div class="footer p-3">
+						<button
+							type="button"
+							class="triggerModal btn-sm bg-white"
+							data-toggle="modal"
+							data-target="#exampleModalLong4"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
 
-  </html> 
+				<!--End objectif four-->
+
+				<!--Start objectif five-->
+
+				<div class="col-lg-4 col-sm-4 col-xs-2">
+					<img src="images/picto-utilisation.png" alt="Utilisation" />
+					<h5 class="text-center text-uppercase mt-3">
+						100 % pratique d'utilisation
+					</h5>
+					<p>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</p>
+
+					<!--Fifth Button trigger modal -->
+
+					<div class="footer p-3">
+						<button
+							type="button"
+							class="triggerModal btn-sm bg-white"
+							data-toggle="modal"
+							data-target="#exampleModalLong5"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
+
+				<!--End objectif five-->
+
+				<!--Start objectif six-->
+
+				<div class="col-lg-4 col-sm-4 col-xs-2">
+					<img
+						src="images/picto-formation.png"
+						alt="Formations certifiantes"
+					/>
+					<h5 class="text-center text-uppercase mt-3">
+						Formations certifiantes organisme agréé DPC
+					</h5>
+					<p>
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
+					</p>
+
+					<!-- Sixth Button trigger modal -->
+
+					<div class="footer p-3">
+						<button
+							type="button"
+							class="triggerModal btn-sm bg-white"
+							data-toggle="modal"
+							data-target="#exampleModalLong6"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--End objectif six-->
+
+		<!--Third section : pedagogy-->
+
+		<section class="container py-5 px-0" id="pedagogy">
+			<h1>Pédagogie</h1>
+			<img class="elect" src="images/picto-elect.png" alt="picto-elect" />
+			<div class="w-80 m-auto card-deck">
+				<div class="card">
+					<img
+						class="card-img-fluid"
+						src="images/pedagogie1.jpg"
+						alt="Pedagogie1"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Pédagogie 1</h5>
+						<p class="card-text">
+							This is a wider card with supporting text below as a
+							natural lead-in to additional content. This content
+							is a little bit longer.
+						</p>
+					</div>
+					<div class="footer p-3">
+						<!-- Frist Button trigger modal pedagogy -->
+
+						<button
+							type="button"
+							class="triggerModal btn-sm btn-danger"
+							data-toggle="modal"
+							data-target="#exampleModalLongP1"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
+
+				<!--End First pedogogy-->
+
+				<!--Start Second Pedagogy-->
+
+				<div class="card">
+					<img
+						class="card-img-fluid"
+						src="images/pedagogie2.jpg"
+						alt="Pedagogie2"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Pédagogie 2</h5>
+						<p class="card-text">
+							This is a wider card with supporting text below as a
+							natural lead-in to additional content. This content
+							is a little bit longer.
+						</p>
+					</div>
+					<div class="footer p-3">
+						<!-- Button trigger modal -->
+
+						<button
+							type="button"
+							class="triggerModal btn-sm btn-danger"
+							data-toggle="modal"
+							data-target="#exampleModalLongP2"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
+
+				<!--End second pedagogy-->
+
+				<!--Start Third pedagogy-->
+
+				<div class="card">
+					<img
+						class="card-img-fluid"
+						src="images/pedagogie3.jpg"
+						alt="Pedagogie3"
+					/>
+					<div class="card-body">
+						<h5 class="card-title">Pédagogie 3</h5>
+						<p class="card-text">
+							This is a wider card with supporting text below as a
+							natural lead-in to additional content. This content
+							is a little bit longer.
+						</p>
+					</div>
+					<div class="footer p-3">
+						<!-- Button trigger modal -->
+						<button
+							type="button"
+							class="triggerModal btn-sm btn-danger"
+							data-toggle="modal"
+							data-target="#exampleModalLongP3"
+						>
+							En savoir plus
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--End Third pedagogy-->
+
+		<!--Fourth section : statistics-->
+
+		<section class="container-fluid py-5" id="statistics">
+			<div class="container">
+				<h1 class="mb-5">Les chiffres</h1>
+				<div class="stats row m-auto">
+					<div class="col-lg-3 col-md-6">
+						<div>
+							<h3>CA x <span class="counter1">12</span></h3>
+							<p>de l'e-learning en France entre 2018 et 2022</p>
+						</div>
+						<div class="mini-separator">
+							<hr class="separator" />
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div>
+							<h3><span class="counter2">100</span> millions</h3>
+							<p>de pros santé dans le monde</p>
+						</div>
+						<div class="mini-separator">
+							<hr class="separator" />
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div>
+							<h3><span class="counter3">70</span>%</h3>
+							<p>
+								des formations pratiques médicales
+								digitalisables grâce aux technologies numériques
+								avancées
+							</p>
+						</div>
+						<div class="mini-separator">
+							<hr class="separator" />
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div>
+							<h3>+ DE <span class="counter4">80</span>%</h3>
+							<p>
+								des professionnels de la santé en France prêts à
+								suivre une formation en ligne
+							</p>
+						</div>
+						<div class="mini-separator">
+							<hr class="separator" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Section with img-overlay-->
+
+		<section class="wow fadeIn">
+			<div class="container">
+				<div class="row equalize">
+					<!-- start feature box item -->
+					<div
+						class="col-md-6 col-sm-12 col-xs-12 banner-style2 sm-margin-30px-bottom wow fadeInUp"
+					>
+						<figure>
+							<div
+								class="banner-image bg-black height-400px cover-background"
+								style="background-image:url('images/visu-questionnaire.jpg');"
+							></div>
+							<figcaption
+								class="padding-seven-all bg-black-opacity last-paragraph-no-margin"
+							>
+								<div class="display-table width-100 height-100">
+									<div
+										class="display-table-cell vertical-align-middle text-left xs-text-center"
+									>
+										<h5>
+											Afin de mieux vous connaître...
+										</h5>
+										<p>
+											Il est important pour nous de mieux
+											vous connaître. Répondre à ce court
+											questionnaire serait un réel plus
+											afin d'identifier votre
+											comportement, vos besoins et vos
+											attentes en termes de e-learning.
+										</p>
+										<a
+											href="#"
+											class="btn btn-danger btn-large margin-30px-top xs-margin-15px-top"
+											>REPONDRE AU QUESTIONNAIRE</a
+										>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<!-- end feature box -->
+					<!-- start feature box item -->
+					<div
+						class="col-md-6 col-sm-12 col-xs-12 banner-style2 wow fadeInUp"
+						data-wow-delay="0.4s"
+					>
+						<figure>
+							<div
+								class="banner-image bg-black height-400px cover-background"
+								style="background-image:url('http://placehold.it/842x510');"
+							></div>
+							<figcaption
+								class="padding-seven-all bg-white last-paragraph-no-margin"
+							>
+								<div class="display-table width-100 height-100">
+									<div
+										class="display-table-cell vertical-align-middle text-left xs-text-center"
+									>
+										<span
+											class="text-medium-gray alt-font text-uppercase"
+											>2005 to 2012</span
+										>
+										<span
+											class="text-large font-weight-600 text-extra-dark-gray alt-font text-uppercase padding-15px-bottom display-block"
+											>Black Design</span
+										>
+										<p>
+											Lorem Ipsum is simply dummy text of
+											the printing and typesetting
+											industry
+										</p>
+										<a
+											href="https://themeforest.net/user/themezaa/portfolio?ref=themezaa"
+											class="btn btn-dark-gray btn-small margin-30px-top xs-margin-15px-top"
+											>Visit Website</a
+										>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<!-- end feature box -->
+				</div>
+			</div>
+		</section>
+		<!-- end feature box section -->
+
+		<section class="container border border-danger py-5" id="quiz">
+			<div class="d-flex justify-content-center">
+				<div class="card border border-warning">
+					<img
+						class="img-fluid"
+						src="images/visu-questionnaire.jpg"
+						alt="quiz"
+					/>
+					<div class="card-img-overlay border border-success">
+						<h5 class="card-title">
+							Afin de mieux vous connaître...
+						</h5>
+						<p class="card-text border border-warning">
+							Il est important pour nous de mieux vous connaître.
+							Répondre à ce court questionnaire serait un réel
+							plus afin d'identifier votre comportement, vos
+							besoins et vos attentes en termes de e-learning.
+						</p>
+
+						<a href="#" class="btn btn-danger border border-warning"
+							>REPONDRE AU QUESTIONNAIRE</a
+						>
+					</div>
+				</div>
+
+				<div class="card border border-warning">
+					<img
+						class="img-fluid"
+						src="images/visu-soutien.jpg"
+						alt="staff"
+					/>
+					<div class="card-img-overlay border border-success">
+						<h5 class="card-title">Nous avons besoin de vous !</h5>
+						<p class="card-text">
+							Pour que Pro Health Tribe voit le jour dans les
+							meilleures conditions, votre soutien financier
+							serait un réel plus pour nous !
+						</p>
+
+						<a href="#" class="btn btn-danger">EN SAVOIR PLUS</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Fifth section : pictures formation-->
+
+		<section class="container-fluid py-5 px-0" id="pictures">
+			<h1>Photos formation backstage</h1>
+			<img class="elect" src="images/picto-elect.png" alt="picto-elect" />
+			<p>
+				Petit avant-goût de notre dernière formation sur les "Etirements
+				passifs" avec notre formateur ostéopathe Guy Chantrieux
+			</p>
+			<div class="row m-auto">
+				<div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
+					<img src="images/photo1.jpg" alt="spine" />
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
+					<img src="images/photo2.jpg" alt="skull" />
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
+					<img src="images/photo3.jpg" alt="pratice" />
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
+					<img src="images/photo4.jpg" alt="skeleton of the hand" />
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
+					<img src="images/photo5.jpg" alt="face anterior makeup" />
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 col-xs-1">
+					<img src="images/photo6.jpg" alt="face posterior makeup" />
+				</div>
+			</div>
+		</section>
+
+		<!--Form-->
+
+		<section class="container py-5" id="nousContacter">
+			<h1>Nous contacter</h1>
+			<img class="elect" src="images/picto-elect.png" alt="picto-elect" />
+		</section>
+
+		<!--Footer-->
+
+		<footer class="container-fluid pt-3 bg-secondary" id="footer">
+			<div class="row">
+				<div class="offset-lg-2 col-lg-3">
+					<img
+						class="img-fluid ml-25"
+						src="images/logo-footer.png"
+						alt="logo footer"
+						id="logoFooter"
+					/>
+				</div>
+				<div class="col-lg-4">
+					<div class="text-center text-white">
+						<p>PROHEALTHTRIBE</p>
+						<p>ESTIA - Technopole Izarbel, 64210 BIDART</p>
+						<p>PROHEALTHTRIBECONTACT@GMAIL.COM</p>
+						<p>+33 (0)6 76 04 11 88</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bis bg-dark text-light">
+				Réalisation Redbox - Copyright 2019
+			</div>
+		</footer>
+
+		<!--===========================================MODALS OBJECTIFS==================================================-->
+		<!--First Modal Objectifs-->
+
+		<div
+			class="modal fade"
+			id="exampleModalLong"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitle"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">
+							Approche 100 % en ligne multi-supports
+						</h5>
+						<button
+							type="button"
+							class="close"
+							text-transform:
+							uppercase;data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-info"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Second Modal Objectifs-->
+
+		<div
+			class="modal fade"
+			id="exampleModalLong2"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitle2"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle2">
+							Réseau social unique "Pro santé"
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-info"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Third Modal Objectifs-->
+
+		<div
+			class="modal fade"
+			id="exampleModalLong3"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitle3"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle3">
+							Formations accessibles en multilingues
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-info"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Fourth Modal Objectifs-->
+
+		<div
+			class="modal fade"
+			id="exampleModalLong4"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitle4"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle4">
+							Transversalité des connaissances médicales
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-info"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Fifth Modal Objectifs-->
+
+		<div
+			class="modal fade"
+			id="exampleModalLong5"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitle5"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle5">
+							100 % pratique d'utilisation
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-info"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Sixth Modal Objectifs-->
+
+		<div
+			class="modal fade"
+			id="exampleModalLong6"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitle6"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle6">
+							Formations certifiantes, organisme agréé DPC
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-info"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--======================================MODALS PEDAGOGY=======================================================-->
+		<!-- First Modal Pedagogy -->
+
+		<div
+			class="modal fade"
+			id="exampleModalLongP1"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitleP1"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitleP1">
+							Pédagogie 1
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-danger"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Second Modal Pedagogy -->
+
+		<div
+			class="modal fade"
+			id="exampleModalLongP2"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitleP2"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitleP2">
+							Pédagogie 2
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-warning"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Third Modal Pedagogy -->
+
+		<div
+			class="modal fade"
+			id="exampleModalLongP3"
+			tabindex="-1"
+			role="dialog"
+			aria-labelledby="exampleModalLongTitleP3"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitleP3">
+							Pédagogie 3
+						</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Sunt distinctio odio non ab aspernatur magnam
+							ad. Voluptate id officia ut, quae doloremque
+							doloribus neque incidunt deleniti, labore quisquam
+							vel dolore!
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button
+							type="button"
+							class="btn btn-warning"
+							data-dismiss="modal"
+						>
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Optional JavaScript -->
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.counterup.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".counter1").counterUp({
+					delay: 10,
+					time: 1500
+				});
+				$(".counter2").counterUp({
+					delay: 1500,
+					time: 2500
+				});
+				$(".counter3").counterUp({
+					delay: 2500,
+					time: 3500
+				});
+				$(".counter4").counterUp({
+					delay: 3500,
+					time: 4500
+				});
+			});
+		</script>
+	</body>
+</html>
