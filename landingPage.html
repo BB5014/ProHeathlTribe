@@ -20,8 +20,8 @@
 		/>
 
 		<!--CSS-->
-		<link rel="stylesheet" href="pofo/css/style.css" />
-		<link rel="stylesheet" href="pofo/css/responsive.css" />
+		<!-- <link rel="stylesheet" href="pofo/css/style.css" />
+		<link rel="stylesheet" href="pofo/css/responsive.css" /> -->
 		<link rel="stylesheet" href="landingPage.css" />
 
 		<!--Fonts-->
@@ -120,22 +120,13 @@
 		<!--Banner-->
 
 		<div class="container-fluid" id="banner">
-			<div class="row">
-				<div class="col-lg">
-					<div class="media">
-						<img class="media-player" src="images/player.png" />
-					</div>
-				</div>
+			<div class="media">
+				<iframe src="images/player.png" frameborder="0" allowfullscreen></iframe>
 			</div>
-
-			<div class="row">
-				<div class="col-lg">
-					<div class="media-body">
-						<h2 class="media-heading">
-							Grow your health expertise
-						</h2>
-					</div>
-				</div>
+			<div class="media-body">
+				<h2 class="media-heading">
+					Grow your health expertise
+				</h2>
 			</div>
 		</div>
 
@@ -171,192 +162,223 @@
 			class="container-fluid p-3 bg-danger text-white"
 			id="objectifs"
 		>
-			<img class="core" src="images/picto-coeur.png" alt="Coeur" />
+			<div class="logo-coeur">
+				<img class="core" src="images/picto-coeur.png" alt="Coeur" />
+			</div>
 			<h1 class="m-3 text-white">Les Objectifs</h1>
 
 			<!--Start objectif one-->
+			<div class="container text-center m-auto">
+				<div class="row objectifs">
+					<div class="col-xl-4 col-lg-4  col-sm-4">
+						<div class="img-wifi">
+							<img src="images/picto-wifi.png" alt="Wifi" />
+						</div>
+						<div class="wifi">
+							<h5 class="text-center mt-3">
+								Approche 100% en ligne multi-supports
+							</h5>
+							<p>
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 
-			<div class="w-75 row justify-content-center text-center m-auto">
-				<div class="col-lg-4  col-sm-4 col-xs-2">
-					<img src="images/picto-wifi.png" alt="Wifi" />
-					<h5 class="text-center text-uppercase mt-3">
-						Approche 100% en ligne multi-supports
-					</h5>
-					<p>
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
+						<!--First Button trigger modal -->
 
-					<!--First Button trigger modal -->
-
-					<div class="footer p-3">
-						<button
-							type="button"
-							class="triggerModal btn-sm bg-white"
-							data-toggle="modal"
-							data-target="#exampleModalLong"
-						>
-							En savoir plus
-						</button>
+						<div class="footer p-3">
+							<button
+								type="button"
+								class="triggerModal btn-sm bg-white"
+								data-toggle="modal"
+								data-target="#exampleModalLong"
+							>
+								En savoir plus
+							</button>
+						</div>
 					</div>
-				</div>
 
-				<!--End objectif one-->
+					<!--End objectif one-->
 
-				<!--Start objectif two-->
+					<!--Start objectif two-->
 
-				<div class="col-lg-4 col-sm-4 col-xs-2">
-					<img
-						src="images/picto-reseau-social.png"
-						alt="Reseau social"
-					/>
+					<div class="col-xl-4 col-lg-4 col-sm-4">
+						<div class="img-reseau">
+							<img
+								src="images/picto-reseau-social.png"
+								alt="Reseau social"
+							/>
+						</div>
+						<div class="reseau">
+							<h5 class="text-center mt-3">
+								Réseau social unique "Pro santé"
+							</h5>
+							<p>
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 
-					<h5 class="text-center text-uppercase mt-3">
-						Réseau social unique "Pro santé"
-					</h5>
-					<p>
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
-					<!-- Second Button trigger modal -->
-					<div class="footer p-3">
-						<button
-							type="button"
-							class="triggerModal btn-sm bg-white"
-							data-toggle="modal"
-							data-target="#exampleModalLong2"
-						>
-							En savoir plus
-						</button>
+						<!-- Second Button trigger modal -->
+
+						<div class="footer p-3">
+							<button
+								type="button"
+								class="triggerModal btn-sm bg-white"
+								data-toggle="modal"
+								data-target="#exampleModalLong2"
+							>
+								En savoir plus
+							</button>
+						</div>
 					</div>
-				</div>
 
-				<!--End objectif two-->
+					<!--End objectif two-->
 
-				<!--Start objectif three-->
+					<!--Start objectif three-->
 
-				<div class="col-lg-4 col-sm-4 col-xs-2">
-					<img
-						src="images/picto-multilingue.png"
-						alt="multilingues"
-					/>
-					<h5 class="text-center text-uppercase mt-3">
-						Formations accessibles en multilingues
-					</h5>
-					<p>
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
+					<div class="col-xl-4 col-lg-4 col-sm-4">
+						<div class="img-mulitlingues">
+							<img
+								src="images/picto-multilingue.png"
+								alt="multilingues"
+							/>
+						</div>
+						<div class="multilingues">
+							<h5 class="text-center mt-3">
+								Formations accessibles en multilingues
+							</h5>
+							<p>
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 
-					<!-- Third Button trigger modal -->
+						<!-- Third Button trigger modal -->
 
-					<div class="footer p-3">
-						<button
-							type="button"
-							class="triggerModal btn-sm bg-white"
-							data-toggle="modal"
-							data-target="#exampleModalLong3"
-						>
-							En savoir plus
-						</button>
+						<div class="footer p-3">
+							<button
+								type="button"
+								class="triggerModal btn-sm bg-white"
+								data-toggle="modal"
+								data-target="#exampleModalLong3"
+							>
+								En savoir plus
+							</button>
+						</div>
 					</div>
-				</div>
 
-				<!--End objectif three-->
+					<!--End objectif three-->
 
-				<hr class="w-100 m-5" color="white" />
+					<hr class="w-100 m-5" color="white" />
 
-				<!--Start objectif four-->
+					<!--Start objectif four-->
 
-				<div class="col-lg-4 col-sm-4 col-xs-2">
-					<img
-						src="images/picto-connaissances.png"
-						alt="Connaissances"
-					/>
-					<h5 class="text-center text-uppercase mt-3">
-						Transversalité des connaissances médicales
-					</h5>
-					<p>
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
+					<div class="col-xl-4 col-lg-4 col-sm-4">
+						<div class="img-knowledges">
+							<img
+								src="images/picto-connaissances.png"
+								alt="knowledges"
+							/>
+						</div>
+						<div class="knowledges">
+							<h5 class="text-center mt-3">
+								Transversalité des connaissances médicales
+							</h5>
+							<p>
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 
-					<!-- Fourth Button trigger modal -->
+						<!-- Fourth Button trigger modal -->
 
-					<div class="footer p-3">
-						<button
-							type="button"
-							class="triggerModal btn-sm bg-white"
-							data-toggle="modal"
-							data-target="#exampleModalLong4"
-						>
-							En savoir plus
-						</button>
+						<div class="footer p-3">
+							<button
+								type="button"
+								class="triggerModal btn-sm bg-white"
+								data-toggle="modal"
+								data-target="#exampleModalLong4"
+							>
+								En savoir plus
+							</button>
+						</div>
 					</div>
-				</div>
 
-				<!--End objectif four-->
+					<!--End objectif four-->
 
-				<!--Start objectif five-->
+					<!--Start objectif five-->
 
-				<div class="col-lg-4 col-sm-4 col-xs-2">
-					<img src="images/picto-utilisation.png" alt="Utilisation" />
-					<h5 class="text-center text-uppercase mt-3">
-						100 % pratique d'utilisation
-					</h5>
-					<p>
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
+					<div class="col-xl-4 col-lg-4 col-sm-4">
+						<div class="img-uilisation">
+							<img
+								src="images/picto-utilisation.png"
+								alt="Utilisation"
+							/>
+						</div>
+						<div class="utilisation">
+							<h5 class="text-center mt-3">
+								100 % pratique d'utilisation
+							</h5>
+							<p>
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 
-					<!--Fifth Button trigger modal -->
+						<!--Fifth Button trigger modal -->
 
-					<div class="footer p-3">
-						<button
-							type="button"
-							class="triggerModal btn-sm bg-white"
-							data-toggle="modal"
-							data-target="#exampleModalLong5"
-						>
-							En savoir plus
-						</button>
+						<div class="footer p-3">
+							<button
+								type="button"
+								class="triggerModal btn-sm bg-white"
+								data-toggle="modal"
+								data-target="#exampleModalLong5"
+							>
+								En savoir plus
+							</button>
+						</div>
 					</div>
-				</div>
 
-				<!--End objectif five-->
+					<!--End objectif five-->
 
-				<!--Start objectif six-->
+					<!--Start objectif six-->
 
-				<div class="col-lg-4 col-sm-4 col-xs-2">
-					<img
-						src="images/picto-formation.png"
-						alt="Formations certifiantes"
-					/>
-					<h5 class="text-center text-uppercase mt-3">
-						Formations certifiantes organisme agréé DPC
-					</h5>
-					<p>
-						This is a wider card with supporting text below as a
-						natural lead-in to additional content. This content is a
-						little bit longer.
-					</p>
+					<div class="col-xl-4 col-lg-4 col-sm-4">
+						<div class="img-formations">
+							<img
+								src="images/picto-formation.png"
+								alt="Formations certifiantes"
+							/>
+						</div>
+						<div class="formations">
+							<h5 class="text-center mt-3">
+								Formations certifiantes organisme agréé DPC
+							</h5>
+							<p>
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 
-					<!-- Sixth Button trigger modal -->
+						<!-- Sixth Button trigger modal -->
 
-					<div class="footer p-3">
-						<button
-							type="button"
-							class="triggerModal btn-sm bg-white"
-							data-toggle="modal"
-							data-target="#exampleModalLong6"
-						>
-							En savoir plus
-						</button>
+						<div class="footer p-3">
+							<button
+								type="button"
+								class="triggerModal btn-sm bg-white"
+								data-toggle="modal"
+								data-target="#exampleModalLong6"
+							>
+								En savoir plus
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -372,16 +394,14 @@
 			<div class="w-80 m-auto card-deck">
 				<div class="card">
 					<img
-						class="card-img-fluid"
+						class="img-fluid"
 						src="images/pedagogie1.jpg"
 						alt="Pedagogie1"
 					/>
 					<div class="card-body">
 						<h5 class="card-title">Pédagogie 1</h5>
 						<p class="card-text">
-							This is a wider card with supporting text below as a
-							natural lead-in to additional content. This content
-							is a little bit longer.
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						</p>
 					</div>
 					<div class="footer p-3">
@@ -404,16 +424,14 @@
 
 				<div class="card">
 					<img
-						class="card-img-fluid"
+						class="img-fluid"
 						src="images/pedagogie2.jpg"
 						alt="Pedagogie2"
 					/>
 					<div class="card-body">
 						<h5 class="card-title">Pédagogie 2</h5>
 						<p class="card-text">
-							This is a wider card with supporting text below as a
-							natural lead-in to additional content. This content
-							is a little bit longer.
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						</p>
 					</div>
 					<div class="footer p-3">
@@ -436,16 +454,14 @@
 
 				<div class="card">
 					<img
-						class="card-img-fluid"
+						class="img-fluid"
 						src="images/pedagogie3.jpg"
 						alt="Pedagogie3"
 					/>
 					<div class="card-body">
 						<h5 class="card-title">Pédagogie 3</h5>
 						<p class="card-text">
-							This is a wider card with supporting text below as a
-							natural lead-in to additional content. This content
-							is a little bit longer.
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						</p>
 					</div>
 					<div class="footer p-3">
@@ -469,7 +485,15 @@
 
 		<section class="container-fluid py-5" id="statistics">
 			<div class="container">
+				<div class="logo-coeur2">
+					<img
+						class="core"
+						src="images/picto-coeur.png"
+						alt="Coeur"
+					/>
+				</div>
 				<h1 class="mb-5">Les chiffres</h1>
+
 				<div class="stats row m-auto">
 					<div class="col-lg-3 col-md-6">
 						<div>
@@ -522,88 +546,6 @@
 		</section>
 
 		<!--Section with img-overlay-->
-
-		<section class="wow fadeIn">
-			<div class="container">
-				<div class="row equalize">
-					<!-- start feature box item -->
-					<div
-						class="col-md-6 col-sm-12 col-xs-12 banner-style2 sm-margin-30px-bottom wow fadeInUp"
-					>
-						<figure>
-							<div
-								class="banner-image bg-black height-400px cover-background"
-								style="background-image:url('images/visu-questionnaire.jpg');"
-							></div>
-							<figcaption
-								class="padding-three-all bg-black-opacity last-paragraph-no-margin"
-							>
-								<div class="display-table width-100 height-100">
-									<div
-										class="vertical-align-middle text-left xs-text-center"
-									>
-										<h5>
-											Afin de mieux vous connaître...
-										</h5>
-										<p>
-											Il est important pour nous de mieux
-											vous connaître. Répondre à ce court
-											questionnaire serait un réel plus
-											afin d'identifier votre
-											comportement, vos besoins et vos
-											attentes en termes de e-learning.
-										</p>
-										<a
-											href="#"
-											class="btn btn-danger btn-large margin-30px-top xs-margin-15px-top"
-											>REPONDRE AU QUESTIONNAIRE</a
-										>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<!-- end feature box -->
-					<!-- start feature box item -->
-					<div
-						class="col-md-6 col-sm-12 col-xs-12 banner-style2 wow fadeInUp"
-						data-wow-delay="0.4s"
-					>
-						<figure>
-							<div
-								class="banner-image bg-black height-400px cover-background"
-								style="background-image:url('images/visu-soutien.jpg');"
-							></div>
-							<figcaption
-								class="padding-three-all bg-black-opacity last-paragraph-no-margin"
-							>
-								<div class="display-table width-100 height-100">
-									<div
-										class=" vertical-align-middle text-left xs-text-center"
-									>
-										<h5>Nous avons besoin de vous !</h5>
-
-										<p>
-											Pour que Pro Health Tribe voit le
-											jour dans les meilleures conditions,
-											votre soutien financier serait un
-											réel plus pour nous !
-										</p>
-										<a
-											href="#"
-											class="btn btn-danger btn-large margin-30px-top xs-margin-15px-top"
-											>EN SAVOIR PLUS</a
-										>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<!-- end feature box -->
-				</div>
-			</div>
-		</section>
-		<!-- end feature box section -->
 
 		<section class="container border border-danger py-5" id="quiz">
 			<div class="d-flex justify-content-center">
