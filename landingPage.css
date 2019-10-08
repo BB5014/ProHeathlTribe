@@ -1,8 +1,9 @@
 html {
 	width: 100%;
+	
 }
 body {
-	width: 95%;
+	width: 98%;
 	margin: auto;
 }
 
@@ -52,6 +53,8 @@ ul {
 
 #quiz {
 	min-height: 100%;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 #quiz img {
@@ -70,10 +73,11 @@ ul {
 }
 /* Sub-sections elements */
 
+
 .media {
 	display: flex;
 	justify-content: center;
-	padding-top:  4rem;
+	padding-top: 4rem;
 }
 
 .media-body {
@@ -81,7 +85,8 @@ ul {
 }
 
 div.stats > div,
-div.objectifs > div {
+div.objectifs > div,
+#quiz div > div {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -101,6 +106,8 @@ div.objectifs > div {
 .elect {
 	display: block;
 	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 
 .stats {
@@ -192,8 +199,7 @@ figcaption .btn {
 
 #objectifs p,
 #statistics p,
-#quiz p,
-figcaption p {
+#quiz p {
 	font-family: "Catamaran", sans-serif;
 	font-weight: 100;
 	font-size: 17px;
@@ -218,12 +224,16 @@ figcaption p {
 	border: 0;
 }
 
+#quiz .card {
+	position: relative;
+}
+
 .card-img-overlay {
 	opacity: 0.8;
 	color: white;
 	background: black;
 	width: 70%;
-	height: 85%;
+
 	margin: 2rem 0rem 2rem 8rem;
 	padding: 1rem;
 	position: absolute;
@@ -248,20 +258,82 @@ footer,
 	align-items: center;
 }
 
-/* .banner-style2 figure figcaption {
-	right: 40px;
-	opacity: 1;
-	visibility: visible;
-} */
+@media all and (max-device-width: 320px) {
+	div .card-img-overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		margin: 0.5rem 0.5rem 5rem 0.5rem;
+	}
+	#quiz .img-fluid {
+visibility: hidden;
+	}
+	h6 {
+		font-size: 17px;
+		margin-bottom: 0;
+}
+}
 
-/* 
-@media (max-width: 767px) {
-	.banner-style2 figcaption {
+@media all and (max-device-width: 480px) {
+	.card-img-overlay {
+		position: absolute;
 		width: 80%;
+		margin: 2rem 2rem 2rem 7rem;
+		padding: 1rem;
+	}
+	h6 {
+		font-size: 18px;
+		line-height: 0.8rem;
+	}
+	.card-img-overlay div.button {
+		padding-top: 1rem;
+	}
+	
+}
+
+@media all and (max-width: 576px) {
+	.card-img-overlay {
+		position: absolute;
+		width: 75%;
+		margin: 1rem 1rem 1rem 6rem;
+		padding: 1.5rem;
+	}
+	.card-img-overlay div.button {
+		margin-bottom: 1.5rem;
 	}
 }
-@media (max-width: 991px) {
-	.banner-style2 figcaption {
-		width: 85%;
+
+@media all and (max-width: 768px) {
+	.card-img-overlay {
+		position: absolute;
+		width: 75%;
+		margin: 1rem 1rem 1rem 7rem;
+		padding: 1.5rem;
 	}
-} */
+}
+
+
+@media all and (max-width: 992px) {
+	.card-img-overlay {
+		position: absolute;
+		width: 75%;
+		margin: 1rem 1rem 1rem 5rem;
+		padding: 0.5rem;
+	}
+
+	#quiz .card-title {
+		padding-bottom: 0.6rem;
+	}
+}
+
+@media all and (min-width: 992px) and (max-width: 1199.98px) {
+	.card-img-overlay {
+		position: absolute;
+		width: 75%;
+		margin: 1rem 1rem 1rem 5rem;
+		padding: 0.5rem;
+	}
+	#quiz .card-title {
+		padding-bottom: 0.8rem;
+	}
+}
