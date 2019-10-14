@@ -20,8 +20,7 @@
 		/>
 
 		<!--CSS-->
-		<!-- <link rel="stylesheet" href="pofo/css/style.css" />
-		<link rel="stylesheet" href="pofo/css/responsive.css" /> -->
+
 		<link rel="stylesheet" href="landingPage.css" />
 
 		<!--Fonts-->
@@ -41,98 +40,98 @@
 	<body>
 		<!--Header-->
 
-		<header class="container">
+		<header>
 			<!--Navbar-->
 
-			<div class="row">
-				<div class="col-lg-12">
-					<nav class="navbar navbar-expand-lg bg-white">
-						<!-- <a class="navbar-brand" href="#logoNavbar">  -->
+			<!-- <div class="row"> -->
+			<!-- <div class="col-lg-12"> -->
+			<div class="container-fluid d-flex justify-content-around">
+				<nav class="navbar navbar-expand-lg bg-white">
+					<a class="navbar-brand" href="#logoNavbar">
 						<img
 							class="img-fluid"
 							src="images/logo.png"
 							alt="logoNavbar"
 							id="logoNavbar"
 						/>
-						<!-- </a> -->
+					</a>
 
-						<!--Menu burger-->
+					<!--Menu burger-->
 
-						<button
-							class="navbar-toggler collapsed bg-danger"
-							type="button"
-							data-toggle="collapse"
-							data-target="#navbarCollapse"
-							aria-controls="navbarCollpase"
-							aria-expanded="false"
-							aria-label="Toggle navigation"
-						>
-							<span class="navbar-toggler-icon"></span>
-						</button>
+					<button
+						class="navbar-toggler collapsed bg-danger"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarCollapse"
+						aria-controls="navbarCollpase"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-						<!--End menu burger-->
+					<!--End menu burger-->
 
-						<div
-							class="collapse navbar-collapse"
-							id="navbarCollapse"
-						>
-							<ul class="navbar-nav">
-								<li class="nav-item  active">
-									<a
-										class="nav-link text-danger"
-										href="#concept"
-										>LE CONCEPT</a
-									>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#objectifs"
-										>OBJECTIF</a
-									>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#pedagogy"
-										>PEDAGOGIE</a
-									>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#statistics"
-										>QUELQUES CHIFFRES</a
-									>
-								</li>
-								<li class="nav-item">
-									<a
-										class="nav-link"
-										href="#nousContacter"
-										tabindex="-1"
-										aria-disabled="true"
-										>NOUS CONTACTER</a
-									>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
+					<div
+						class="w-100 collapse navbar-collapse"
+						id="navbarCollapse"
+					>
+						<ul class="navbar-nav m-auto">
+							<li class="nav-item  active">
+								<a class="nav-link text-danger" href="#concept"
+									>LE CONCEPT</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#objectifs"
+									>OBJECTIF</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#pedagogy"
+									>PEDAGOGIE</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#statistics"
+									>QUELQUES CHIFFRES</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="#nousContacter"
+									tabindex="-1"
+									aria-disabled="true"
+									>NOUS CONTACTER</a
+								>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
+			<!-- </div> -->
+			<!-- </div> -->
 		</header>
 
 		<!--End navbar and header-->
 
 		<!--Banner-->
-
-		<div class="container-fluid" id="banner">
-			<div class="media">
-				<iframe
-					src="images/player.png"
-					frameborder="0"
-					allowfullscreen
-				></iframe>
+		<section class="banner" id="banner">
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container d-flex flex-column">
+					<div class="d-flex justify-content-center">
+						<img
+							class="my-5"
+							src="images/player.png"
+						/>
+					</div>
+					<div class="title-banner my-5">
+						<h2>Grow your health expertise</h2>
+					</div>
+				</div>
 			</div>
-			<div class="media-body-fluid">
-				<h2 class="media-heading-fluid">
-					Grow your health expertise
-				</h2>
-			</div>
-		</div>
+		</section>
 
 		<!--End banner-->
 
@@ -166,7 +165,7 @@
 			class="container-fluid p-3 bg-danger text-white"
 			id="objectifs"
 		>
-			<div class="logo-coeur">
+			<div class="logo-coeur d-flex justify-content-center">
 				<img class="core" src="images/picto-coeur.png" alt="Coeur" />
 			</div>
 			<h1 class="m-3 text-white">Les Objectifs</h1>
@@ -174,7 +173,7 @@
 			<!--Start objectif one-->
 			<div class="container text-center m-auto">
 				<div class="row objectifs">
-					<div class="col-xl-4 col-lg-4  col-sm-4">
+					<div class="col-xl-4 col-lg-4 col-sm-4">
 						<div class="img-wifi">
 							<img src="images/picto-wifi.png" alt="Wifi" />
 						</div>
@@ -395,8 +394,8 @@
 		<section class="container py-5 px-0" id="pedagogy">
 			<h1>Pédagogie</h1>
 			<img class="elect" src="images/picto-elect.png" alt="picto-elect" />
-			<div class="w-80 m-auto card-deck">
-				<div class="card">
+			<div class="w-80 m-auto card-deck pb-5">
+				<div class="card border border-0">
 					<img
 						class="img-fluid"
 						src="images/pedagogie1.jpg"
@@ -427,7 +426,7 @@
 
 				<!--Start Second Pedagogy-->
 
-				<div class="card">
+				<div class="card border border-0">
 					<img
 						class="img-fluid"
 						src="images/pedagogie2.jpg"
@@ -458,7 +457,7 @@
 
 				<!--Start Third pedagogy-->
 
-				<div class="card">
+				<div class="card border border-0">
 					<img
 						class="img-fluid"
 						src="images/pedagogie3.jpg"
@@ -491,15 +490,15 @@
 		<!--Fourth section : statistics-->
 
 		<section class="container-fluid py-5" id="statistics">
-			<div class="container">
-				<div class="logo-coeur2">
+			<div class="container text-white">
+				<div class="logo-coeur2 d-flex justify-content-center">
 					<img
 						class="core"
 						src="images/picto-coeur.png"
 						alt="Coeur"
 					/>
 				</div>
-				<h1 class="mb-5">Les chiffres</h1>
+				<h1 class="mt-4 mb-5">Les chiffres</h1>
 
 				<div class="stats row m-auto">
 					<div class="col-lg-3 col-md-6">
@@ -557,15 +556,12 @@
 		<section class="container py-5" id="quiz">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-6 col-md-8 col-sm-10 xs-12">
-					<div class="card">
-						<img
-							class="img-fluid"
-							src="images/visu-questionnaire.jpg"
-							alt="quiz"
-						/>
-						<div class="card-img-overlay">
-							<div>
-								<h6 class="card-title">
+					<div class="answers jumbotron py-3">
+						<div class="img-overlay img-fluid pl-4 pl-lg-5">
+							<div
+								class="card-fluid w-75 px-2 py-3 my-2 ml-5 mr-4"
+							>
+								<h6 class="card-title pb-2">
 									Afin de mieux vous connaître...
 								</h6>
 								<p class="card-text">
@@ -575,15 +571,43 @@
 									comportement, vos besoins et vos attentes en
 									termes de e-learning.
 								</p>
-							</div>
-							<div class="button">
-								<a href="#" class="btn btn-danger"
-									>REPONDRE AU QUESTIONNAIRE</a
-								>
+
+								<div class="button">
+									<a href="#" class="btn btn-danger my-2"
+										>REPONDRE AU QUESTIONNAIRE</a
+									>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-6 col-md-8 col-sm-10 xs-12">
+					<div class="help jumbotron  py-3">
+						<div class="img-overlay img-fluid pl-4 pl-lg-5">
+							<div
+								class="card-fluid w-75 px-2 py-3 my-2 ml-5 mr-4"
+							>
+								<h6 class="card-title pb-2">
+									Nous avons besoin de vous !
+								</h6>
+								<p class="card-text">
+									Pour que Pro Health Tribe voit le jour dans
+									les meilleures conditions, votre soutien
+									financier serait un réel plus pour nous !
+								</p>
+								<div class="button">
+									<a href="#" class="btn btn-danger my-2"
+										>EN SAVOIR PLUS</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section> 
 				<div class="col-lg-6 col-md-8 col-sm-10 xs-12">
 					<div class="card">
 						<img
@@ -591,7 +615,7 @@
 							src="images/visu-soutien.jpg"
 							alt="staff"
 						/>
-						<div class="card-img-overlay text-left">
+						<div class="card-img-overlay">
 							<div>
 								<h6 class="card-title">
 									Nous avons besoin de vous !
@@ -610,8 +634,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			
+		</section> -->
 
 		<!--Fifth section : pictures formation-->
 
@@ -622,24 +646,48 @@
 				Petit avant-goût de notre dernière formation sur les "Etirements
 				passifs" avec notre formateur ostéopathe Guy Chantrieux
 			</p>
-			<div class="row m-auto">
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<img src="images/photo1.jpg" alt="spine" />
+			<div class="row d-flex text-center m-auto">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 px-0">
+					<img
+						src="images/photo1.jpg"
+						class="img-fluid"
+						alt="spine"
+					/>
 				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<img src="images/photo2.jpg" alt="skull" />
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 px-0">
+					<img
+						src="images/photo2.jpg"
+						class="img-fluid"
+						alt="skull"
+					/>
 				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<img src="images/photo3.jpg" alt="pratice" />
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 px-0">
+					<img
+						src="images/photo3.jpg"
+						class="img-fluid"
+						alt="pratice"
+					/>
 				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<img src="images/photo4.jpg" alt="skeleton of the hand" />
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 px-0">
+					<img
+						src="images/photo4.jpg"
+						class="img-fluid"
+						alt="skeleton of the hand"
+					/>
 				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<img src="images/photo5.jpg" alt="face anterior makeup" />
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 px-0">
+					<img
+						src="images/photo5.jpg"
+						class="img-fluid"
+						alt="face anterior makeup"
+					/>
 				</div>
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
-					<img src="images/photo6.jpg" alt="face posterior makeup" />
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 px-0">
+					<img
+						src="images/photo6.jpg"
+						class="img-fluid"
+						alt="face posterior makeup"
+					/>
 				</div>
 			</div>
 		</section>
@@ -653,7 +701,7 @@
 
 		<!--Footer-->
 
-		<footer class="container-fluid pt-3 bg-secondary" id="footer">
+		<footer class="container-fluid px-0 pt-3 bg-secondary" id="footer">
 			<div class="row">
 				<div class="offset-lg-2 col-lg-3">
 					<img
@@ -672,7 +720,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer-bis bg-dark text-light">
+			<div class="footer-bis w-100 d-inline-flex bg-dark text-light">
 				Réalisation Redbox - Copyright 2019
 			</div>
 		</footer>
