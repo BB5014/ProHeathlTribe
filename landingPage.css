@@ -1,4 +1,6 @@
-
+html {
+	margin: 5px;
+}
 /* Navbar */
 
 /* #logoNavbar {
@@ -24,37 +26,10 @@ a {
 
 /* Sections */
 
-/* #quiz {
-	min-height: 100%;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
-
-#quiz img {
-	padding: 0.5rem;
-}
-
-#quiz .card img {
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-*/
 #statistics {
 	background-image: url("images/img-parallax.jpg");
 } 
 /* Sub-sections elements */
-
-
-/* .media {
-	display: flex;
-	justify-content: center;
-	padding-top: 4rem;
-}
-
-.media-body {
-	padding-top: 2rem;
-}*/
 
 div.stats > div,
 div.objectifs > div,
@@ -208,9 +183,4 @@ footer,
 	font-size: 17px;
 }
 
-.footer-bis {
-	height: 3rem;
-	padding-left: 10rem;
-	align-items: center;
-}
 
