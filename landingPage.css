@@ -3,22 +3,15 @@ html {
 }
 /* Navbar */
 
-/* #logoNavbar {
-	width: 160px;
-}*/
-
 a {
 	font-family: "Catamaran", sans-serif;
 	font-weight: 800;
 	color: #434343;
 	font-size: 16px;
 }
-/*li {
-	padding-right: 1rem;
-}
-*/
 
 /* Banner */
+
 #banner .jumbotron{
 	background-image: url("images/bannière3.jpg");
 	height: 600px; 
@@ -114,7 +107,7 @@ button {
 	text-transform: uppercase;
 }
 
-.triggerModal {
+.triggerModal, #quiz .button .btn{
 	border-radius: 20px;
 }
 
@@ -143,6 +136,10 @@ button {
 	color: white;
 }
 
+.help p{
+	padding-bottom: 50px;
+}
+
 /* Cards */
 
 #pedagogy .card-title {
@@ -155,6 +152,9 @@ button {
 #pedagogy .card-text {
 	text-align: left;
 }
+
+/* Cards overlay */
+
 .answers.jumbotron {
 	background: url('images/visu-questionnaire.jpg') no-repeat;
 	background-size: cover;
@@ -164,9 +164,6 @@ button {
 	background: url('images/visu-soutien.jpg') no-repeat;
 	background-size: cover;
 	height: 100%;
-}
-.help p{
-	padding-bottom: 50px;
 }
 
 #quiz .card-fluid {
